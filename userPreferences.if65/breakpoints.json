@@ -1,0 +1,95 @@
+﻿[
+	{
+		"line": 444,
+		"method": {
+			"type": 1,
+			"methodName": "_creazioneCatalina_0481"
+		}
+	},
+	{
+		"line": 93,
+		"method": {
+			"type": 1,
+			"methodName": "_creazioneCatalina_0503"
+		}
+	},
+	{
+		"line": 77,
+		"method": {
+			"type": 1,
+			"methodName": "_creazioneCatalina_0492"
+		}
+	},
+	{
+		"line": 6,
+		"method": {
+			"type": 2,
+			"formName": "pfCatalina",
+			"objectName": "Button8",
+			"methodPath": "/SOURCES/Forms/pfCatalina/ObjectMethods/Button8.4dm"
+		}
+	},
+	{
+		"line": 86,
+		"method": {
+			"type": 1,
+			"methodName": "_creazioneCatalina_ACPT"
+		}
+	},
+	{
+		"line": 17,
+		"method": {
+			"type": 1,
+			"methodName": "vpGetDescrizioneArticolo"
+		}
+	},
+	{
+		"line": 79,
+		"method": {
+			"type": 1,
+			"methodName": "_creazioneBuono_0501"
+		}
+	},
+	{
+		"line": 83,
+		"method": {
+			"type": 1,
+			"methodName": "_creazioneBuono_0501"
+		}
+	},
+	{
+		"line": 94,
+		"method": {
+			"type": 1,
+			"methodName": "pfEsportaSuExcel"
+		}
+	},
+	{
+		"line": 9,
+		"method": {
+			"type": 1,
+			"methodName": "pfEsportaSuExcel"
+		}
+	},
+	{
+		"line": 92,
+		"method": {
+			"type": 1,
+			"methodName": "pfEsportaSuExcel"
+		}
+	},
+	{
+		"line": 95,
+		"method": {
+			"type": 1,
+			"methodName": "_marco6"
+		}
+	},
+	{
+		"line": 99,
+		"method": {
+			"type": 1,
+			"methodName": "_marco5"
+		}
+	}
+]

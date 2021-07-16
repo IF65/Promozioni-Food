@@ -1,0 +1,271 @@
+﻿{
+	"destination": "detailScreen",
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"menuBar": "Menu Bar #1",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onUnload",
+		"onResize"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Line": {
+					"type": "line",
+					"top": 869,
+					"left": 0,
+					"width": 1291,
+					"sizingX": "grow",
+					"sizingY": "move",
+					"stroke": "#DDDDDD",
+					"strokeWidth": 0.1,
+					"height": 1
+				},
+				"notePiePagina": {
+					"type": "input",
+					"top": 870,
+					"left": 7,
+					"width": 742,
+					"height": 13,
+					"sizingX": "grow",
+					"sizingY": "move",
+					"dataSource": "notePiePagina",
+					"class": "Supermedia_Bottoni",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Invisible Button1": {
+					"type": "button",
+					"top": 3,
+					"left": 761,
+					"width": 9,
+					"height": 3,
+					"dataSource": "Invisible Button",
+					"shortcutKey": "[Enter]",
+					"display": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Button1": {
+					"type": "button",
+					"top": 843,
+					"left": 7,
+					"width": 125,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "Button1",
+					"shortcutKey": "[F1]",
+					"text": "Carica File - F1",
+					"class": "Supermedia_Bottoni",
+					"fontWeight": "bold",
+					"focusable": false,
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button2": {
+					"type": "button",
+					"top": 843,
+					"left": 135,
+					"width": 125,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "Button2",
+					"shortcutKey": "[F2]",
+					"class": "Supermedia_Bottoni",
+					"fontWeight": "bold",
+					"focusable": false,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button2.4dm",
+					"text": "Crea Catalina"
+				},
+				"Button3": {
+					"type": "button",
+					"top": 843,
+					"left": 263,
+					"width": 125,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "Button3",
+					"class": "Supermedia_Bottoni",
+					"fontWeight": "bold",
+					"focusable": false,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button3.4dm",
+					"text": "Crea Template"
+				},
+				"Button4": {
+					"type": "button",
+					"top": 843,
+					"left": 391,
+					"width": 125,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "Button4",
+					"text": "",
+					"class": "Supermedia_Bottoni",
+					"fontWeight": "bold",
+					"focusable": false,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button4.4dm"
+				},
+				"Button5": {
+					"type": "button",
+					"top": 843,
+					"left": 519,
+					"width": 125,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "Button5",
+					"text": "",
+					"class": "Supermedia_Bottoni",
+					"fontWeight": "bold",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"vpImport": {
+					"type": "view",
+					"left": 8,
+					"top": 8,
+					"width": 1274,
+					"height": 825,
+					"userInterface": "ribbon",
+					"withFormulaBar": false,
+					"method": "ObjectMethods/vpImport.4dm",
+					"dataSource": "vpImport",
+					"sizingX": "grow",
+					"sizingY": "grow",
+					"events": [
+						"onVPReady"
+					]
+				},
+				"Button6": {
+					"type": "button",
+					"top": 843,
+					"left": 647,
+					"width": 125,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "Button6",
+					"shortcutKey": "[F2]",
+					"class": "Supermedia_Bottoni",
+					"fontWeight": "bold",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Button7": {
+					"type": "button",
+					"top": 843,
+					"left": 775,
+					"width": 125,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "Button7",
+					"class": "Supermedia_Bottoni",
+					"fontWeight": "bold",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Button8": {
+					"type": "button",
+					"top": 843,
+					"left": 903,
+					"width": 125,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "Button8",
+					"text": "Crea Promozioni",
+					"class": "Supermedia_Bottoni",
+					"fontWeight": "bold",
+					"focusable": false,
+					"method": "ObjectMethods/Button8.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button9": {
+					"type": "button",
+					"top": 843,
+					"left": 1031,
+					"width": 125,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "Button9",
+					"text": "Stampa",
+					"class": "Supermedia_Bottoni",
+					"fontWeight": "bold",
+					"focusable": false,
+					"method": "ObjectMethods/Button9.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button10": {
+					"type": "button",
+					"top": 843,
+					"left": 1159,
+					"width": 125,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "Button10",
+					"action": "cancel",
+					"text": "Esci",
+					"class": "Supermedia_Bottoni",
+					"fontWeight": "bold",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				}
+			}
+		}
+	],
+	"geometryStamp": 137,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	}
+}

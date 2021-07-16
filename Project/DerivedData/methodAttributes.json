@@ -1,0 +1,286 @@
+﻿{
+	"methods": {
+		"_creazioneBuono_0501": {
+			"timeStamp": "2021-06-10T15:24:49.368Z"
+		},
+		"caricamento_0482": {
+			"timeStamp": "2021-07-15T08:50:06.030Z"
+		},
+		"_creazioneCatalina_0481": {
+			"timeStamp": "2021-02-18T11:16:26.235Z"
+		},
+		"caricamentoPromoLibri": {
+			"timeStamp": "2021-07-15T08:49:13.763Z"
+		},
+		"utlAlpAreaSetup": {
+			"timeStamp": "2020-09-29T19:23:06.000Z"
+		},
+		"catalinaCaricamento_0492": {
+			"timeStamp": "2021-04-14T15:47:28.138Z"
+		},
+		"_creazioneCatalina_ACPT": {
+			"timeStamp": "2021-05-23T22:58:10.442Z"
+		},
+		"utlPlugInRegistration": {
+			"timeStamp": "2020-09-29T19:23:06.000Z"
+		},
+		"utlCreaBarcodeCatalina": {
+			"timeStamp": "2020-09-29T19:23:06.000Z"
+		},
+		"_creazioneCatalina_0492": {
+			"timeStamp": "2021-05-23T23:12:08.237Z"
+		},
+		"pfEntryEnd": {
+			"timeStamp": "2020-09-29T19:23:06.000Z"
+		},
+		"catalinaCaricamento_ACPT": {
+			"timeStamp": "2021-05-14T13:46:34.127Z"
+		},
+		"utlCercaArticoloPerCodice": {
+			"timeStamp": "2021-05-31T15:06:11.741Z"
+		},
+		"procCreaFinestra": {
+			"timeStamp": "2020-09-29T19:23:06.000Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"pfEsportazionePromozione": {
+			"timeStamp": "2020-09-29T19:23:06.000Z"
+		},
+		"pfNegozi": {
+			"timeStamp": "2020-09-29T19:23:06.000Z"
+		},
+		"utlProgressivoVerificaEsistenza": {
+			"timeStamp": "2020-09-29T19:23:06.000Z"
+		},
+		"catalinaCaricamento_0481": {
+			"timeStamp": "2021-05-14T11:30:25.518Z"
+		},
+		"utlQuit": {
+			"timeStamp": "2020-09-29T19:23:06.000Z"
+		},
+		"utlPromozioniIF652Excel": {
+			"timeStamp": "2020-09-30T13:10:45.000Z"
+		},
+		"pfTemplate": {
+			"timeStamp": "2020-09-29T19:23:06.000Z"
+		},
+		"_marco5": {
+			"timeStamp": "2021-07-15T08:50:23.230Z"
+		},
+		"utlTermometro": {
+			"timeStamp": "2020-09-29T19:23:06.000Z"
+		},
+		"utlCreaPmtDaTemplate": {
+			"timeStamp": "2021-01-11T08:11:52.998Z"
+		},
+		"_marco": {
+			"timeStamp": "2021-04-11T19:26:10.940Z"
+		},
+		"_marco4": {
+			"timeStamp": "2021-02-10T06:09:39.127Z"
+		},
+		"_marco6": {
+			"timeStamp": "2021-07-09T14:54:16.591Z"
+		},
+		"utlElencoAderenti": {
+			"timeStamp": "2020-09-29T19:23:06.000Z"
+		},
+		"_marco3": {
+			"timeStamp": "2020-11-15T07:26:49.000Z"
+		},
+		"utlProgressivoCrea": {
+			"timeStamp": "2020-09-29T19:23:06.000Z"
+		},
+		"utlElencoCategorie": {
+			"timeStamp": "2020-09-29T19:23:06.000Z"
+		},
+		"templateCaricamento_0501": {
+			"timeStamp": "2021-06-10T16:24:17.678Z"
+		},
+		"_marco2": {
+			"timeStamp": "2020-10-23T12:56:12.000Z"
+		},
+		"pfCreazioneFile": {
+			"timeStamp": "2020-09-29T19:23:06.000Z"
+		},
+		"utlElencoPromozioni": {
+			"timeStamp": "2020-09-29T19:23:06.000Z"
+		},
+		"utlOttieniBarcode8Catalina": {
+			"timeStamp": "2020-09-29T19:23:06.000Z"
+		},
+		"pfPromozioni": {
+			"timeStamp": "2020-11-11T10:21:31.000Z"
+		},
+		"setupStampante": {
+			"timeStamp": "2020-09-29T19:23:06.000Z"
+		},
+		"utlGetDiskStruct": {
+			"timeStamp": "2020-09-29T19:23:06.000Z"
+		},
+		"utlElencoSediUsate": {
+			"timeStamp": "2020-11-15T07:11:19.000Z"
+		},
+		"vpGetDescrizioneArticolo": {
+			"timeStamp": "2021-05-27T08:47:01.918Z"
+		},
+		"utlEsplosioneBarcode": {
+			"timeStamp": "2020-09-29T19:23:06.000Z"
+		},
+		"utlElencoCodiciCatalinaUsati": {
+			"timeStamp": "2020-09-29T19:23:06.000Z"
+		},
+		"pfPromozioniInserimento": {
+			"timeStamp": "2020-11-07T09:05:03.000Z"
+		},
+		"utlAlpAreaFormatColumn": {
+			"timeStamp": "2020-09-29T19:23:06.000Z"
+		},
+		"utlAlpAreaAddColumn": {
+			"timeStamp": "2020-09-29T19:23:06.000Z"
+		},
+		"utlOnErrCall": {
+			"timeStamp": "2020-09-29T19:23:06.000Z"
+		},
+		"pfCatalina": {
+			"timeStamp": "2021-05-13T08:01:43.439Z"
+		},
+		"utlInvioLaboratorio": {
+			"timeStamp": "2021-07-02T14:14:12.704Z"
+		},
+		"templateCaricamento_0054": {
+			"timeStamp": "2021-06-14T20:14:13.560Z"
+		},
+		"utlCreaPmtDeliveryDaTemplate": {
+			"timeStamp": "2021-07-15T12:38:39.237Z"
+		},
+		"pfCreazioneFileLocal": {
+			"timeStamp": "2020-09-29T19:23:06.000Z"
+		},
+		"pfIncarichi": {
+			"timeStamp": "2020-11-15T21:08:52.000Z"
+		},
+		"pfSceltaSedi": {
+			"timeStamp": "2020-09-29T19:23:06.000Z"
+		},
+		"ssMacroSql": {
+			"timeStamp": "2020-09-29T19:23:06.000Z"
+		},
+		"pfEsportaSuExcel": {
+			"timeStamp": "2021-06-11T08:15:50.864Z"
+		},
+		"utlAlpAreaAddCalculatedColumn": {
+			"timeStamp": "2020-09-29T19:23:06.000Z"
+		},
+		"_creazioneCatalina_0503": {
+			"timeStamp": "2021-05-23T22:37:38.947Z"
+		},
+		"qDettagli": {
+			"timeStamp": "2021-04-15T14:03:18.296Z"
+		},
+		"pfAderenti": {
+			"timeStamp": "2020-09-29T19:23:06.000Z"
+		},
+		"utlMatchRegex": {
+			"timeStamp": "2020-09-29T19:23:06.000Z"
+		},
+		"pfEntryStart": {
+			"timeStamp": "2020-09-29T19:23:06.000Z"
+		},
+		"utlProgressivoSalvaCodiceEsiste": {
+			"timeStamp": "2020-09-29T19:23:06.000Z"
+		},
+		"utlCreaPmtLibriDaTemplate": {
+			"timeStamp": "2020-09-29T19:23:06.000Z"
+		},
+		"utlElencoNegozi": {
+			"timeStamp": "2020-09-29T19:23:06.000Z"
+		},
+		"utlConfrontoArray": {
+			"timeStamp": "2020-09-29T19:23:06.000Z"
+		},
+		"utlCercaBarcodeDaCodiceArticolo": {
+			"timeStamp": "2021-05-31T15:08:19.732Z"
+		},
+		"utlQuadratureCaricaDettagli": {
+			"timeStamp": "2021-05-06T09:39:52.935Z"
+		},
+		"procMostraTermometro": {
+			"timeStamp": "2020-09-29T19:23:06.000Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"catalinaCaricamento_0503": {
+			"timeStamp": "2021-05-23T22:30:39.800Z"
+		},
+		"utlExplode": {
+			"timeStamp": "2020-09-29T19:23:06.000Z"
+		},
+		"pfCaricamentoPromozione": {
+			"timeStamp": "2020-09-29T19:23:06.000Z"
+		},
+		"(utlNuovaPromovarPI)": {
+			"timeStamp": "2020-09-29T19:23:06.000Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"(utlCaricamentoCatalina2)": {
+			"timeStamp": "2020-09-29T19:23:06.000Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"(creaCodiciCatalina)": {
+			"timeStamp": "2020-09-29T19:23:06.000Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"(_test1)": {
+			"timeStamp": "2020-09-29T19:23:06.000Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"(_test_1)": {
+			"timeStamp": "2020-09-29T19:23:06.000Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"(_marco)": {
+			"timeStamp": "2020-09-29T19:23:06.000Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"(_test)": {
+			"timeStamp": "2020-09-29T19:23:06.000Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"(_curriculum)": {
+			"timeStamp": "2020-09-29T19:23:06.000Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"(utlCaricamentoCatalina)": {
+			"timeStamp": "2020-09-29T19:23:06.000Z",
+			"attributes": {
+				"invisible": true
+			}
+		},
+		"(utlCaricamentoCatalina1)": {
+			"timeStamp": "2020-09-29T19:23:06.000Z",
+			"attributes": {
+				"invisible": true
+			}
+		}
+	}
+}
