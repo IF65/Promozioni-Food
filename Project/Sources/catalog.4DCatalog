@@ -1,6 +1,6 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
-<base name="" uuid="FF8F49DB7D71431CAEC8B37AADBD8E82" collation_locale="it">
+<base name="PFood" uuid="FF8F49DB7D71431CAEC8B37AADBD8E82" collation_locale="it">
 	<schema name="DEFAULT_SCHEMA"/>
 	<table name="__DeletedRecords" uuid="8767ECD6ADDD4E0589E2166CA6F3568E" id="4" leave_tag_on_delete="true" prevent_journaling="true">
 		<field name="ID" uuid="2C568E51C27E49079422701AA21691B7" type="5" unique="true" autosequence="true" id="1"/>
@@ -26,5 +26,5 @@
 			<table_ref uuid="8767ECD6ADDD4E0589E2166CA6F3568E" name="__DeletedRecords"/>
 		</field_ref>
 	</index>
-	<base_extra __stringCompHash="icu:63.1.0" __keywordBuildingHash="icu:63.1.0" package_name="PFood_v18" structure_file_name="PFood" data_file_path=":PFood.4DD"/>
+	<base_extra __stringCompHash="icu:68.1.0" __keywordBuildingHash="icu:68.1.0" package_name="PFood_v18" structure_file_name="PFood" data_file_path=":PFood.4DD"/>
 </base>

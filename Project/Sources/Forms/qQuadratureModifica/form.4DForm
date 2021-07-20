@@ -1,0 +1,277 @@
+﻿{
+	"destination": "detailScreen",
+	"windowTitle": "Inserimento/Modifica Promozione",
+	"windowSizingX": "fixed",
+	"windowSizingY": "fixed",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"menuBar": "Menu Bar #1",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onClick",
+		"onDataChange",
+		"onUnload",
+		"onResize"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "595pt",
+		"paperHeight": "842pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Group Box6": {
+					"type": "groupBox",
+					"top": 416,
+					"left": 9,
+					"width": 829,
+					"height": 140
+				},
+				"Group Box1": {
+					"type": "groupBox",
+					"top": 64,
+					"left": 9,
+					"width": 82,
+					"height": 80
+				},
+				"Rectangle": {
+					"type": "rectangle",
+					"top": 59,
+					"left": 1061,
+					"width": 1,
+					"height": 1,
+					"fill": "transparent"
+				},
+				"vPR_bozza": {
+					"type": "checkbox",
+					"top": 76,
+					"left": 14,
+					"width": 56,
+					"height": 26,
+					"dataSource": "vPR_bozza",
+					"text": "Bozza",
+					"class": "Supermedia_Label",
+					"focusable": false,
+					"method": "ObjectMethods/vPR_bozza.4dm",
+					"events": [
+						"onLoad",
+						"onClick"
+					]
+				},
+				"vPR_codice": {
+					"type": "input",
+					"top": 120,
+					"left": 18,
+					"width": 64,
+					"height": 14,
+					"dataSource": "vPR_codice",
+					"dataSourceTypeHint": "number",
+					"class": "Supermedia_Campi_12",
+					"textAlign": "right",
+					"focusable": false,
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onLoad",
+						"onDataChange"
+					]
+				},
+				"Line": {
+					"type": "line",
+					"top": 52,
+					"left": 0,
+					"width": 1070,
+					"sizingX": "grow",
+					"stroke": "#DDDDDD",
+					"strokeWidth": 0.1,
+					"height": 0,
+					"startPoint": "topLeft"
+				},
+				"Text2": {
+					"type": "text",
+					"top": 108,
+					"left": 21,
+					"width": 58,
+					"height": 13,
+					"class": "Supermedia_Label",
+					"text": "Progressivo"
+				},
+				"bFirst": {
+					"type": "pictureButton",
+					"top": 3,
+					"left": 1,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/First Record"
+					},
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/FirstRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bPrevious": {
+					"type": "pictureButton",
+					"top": 3,
+					"left": 64,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Previous Record"
+					},
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/PreviousRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bNext": {
+					"type": "pictureButton",
+					"top": 3,
+					"left": 127,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Next Record"
+					},
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/NextRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bLast": {
+					"type": "pictureButton",
+					"top": 3,
+					"left": 190,
+					"width": 48,
+					"height": 48,
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Last Record"
+					},
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/LastRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bDelete": {
+					"type": "pictureButton",
+					"top": 3,
+					"left": 894,
+					"width": 48,
+					"height": 48,
+					"sizingX": "move",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Delete Record"
+					},
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/DeleteRecord.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"events": [
+						"onClick"
+					]
+				},
+				"bCancel": {
+					"type": "pictureButton",
+					"top": 3,
+					"left": 957,
+					"width": 48,
+					"height": 48,
+					"sizingX": "move",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/Cancel"
+					},
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/Cancel.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"method": "ObjectMethods/bCancel.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"bValidate": {
+					"type": "pictureButton",
+					"top": 3,
+					"left": 1020,
+					"width": 48,
+					"height": 48,
+					"sizingX": "move",
+					"tooltip": {
+						"$ref": "/SOURCES/tips.json#/OK"
+					},
+					"rowCount": 4,
+					"picture": "/RESOURCES/Images/Buttons/LightGrey/Validate.png",
+					"switchWhenRollover": true,
+					"switchBackWhenReleased": true,
+					"useLastFrameAsDisabled": true,
+					"method": "ObjectMethods/bValidate.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Line1": {
+					"type": "line",
+					"top": 573,
+					"left": 40,
+					"width": 1030,
+					"sizingX": "grow",
+					"sizingY": "move",
+					"stroke": "#DDDDDD",
+					"strokeWidth": 0.1,
+					"height": 0,
+					"startPoint": "topLeft"
+				},
+				"lblTesto": {
+					"type": "text",
+					"top": 404,
+					"left": 14,
+					"width": 85,
+					"height": 13,
+					"class": "Supermedia_Label",
+					"text": "Testo - 03"
+				},
+				"test001": {
+					"type": "text",
+					"text": "text default",
+					"top": 187,
+					"left": 59,
+					"width": 209,
+					"height": 77,
+					"class": ""
+				}
+			}
+		}
+	],
+	"geometryStamp": 40,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	}
+}

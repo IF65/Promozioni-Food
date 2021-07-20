@@ -1066,5 +1066,113 @@
 		"top": 110,
 		"width": 1609,
 		"height": 936
+	},
+	"Sources/Forms/qQuadrature/method.4dm": {
+		"left": 11,
+		"top": 110,
+		"width": 1609,
+		"height": 936
+	},
+	"Sources/Methods/qQuadrature.4dm": {
+		"left": 11,
+		"top": 110,
+		"width": 1609,
+		"height": 936
+	},
+	"Sources/Forms/qQuadrature/ObjectMethods/Button1.4dm": {
+		"left": 18,
+		"top": 118,
+		"width": 1520,
+		"height": 962
+	},
+	"Sources/Forms/qQuadrature/ObjectMethods/alpPromozioni.4dm": {
+		"left": 18,
+		"top": 118,
+		"width": 1520,
+		"height": 962
+	},
+	"Sources/Forms/qQuadrature/ObjectMethods/srcTipoPromozione.4dm": {
+		"left": 378,
+		"top": 142,
+		"width": 1557,
+		"height": 793
+	},
+	"Sources/Forms/qQuadrature/ObjectMethods/srcSediDescrizione.4dm": {
+		"left": 18,
+		"top": 118,
+		"width": 1520,
+		"height": 962
+	},
+	"Sources/Forms/qQuadrature/ObjectMethods/alpQuadrature.4dm": {
+		"left": 18,
+		"top": 118,
+		"width": 1520,
+		"height": 962
+	},
+	"Sources/Methods/utlAlpAreaFormatColumn.4dm": {
+		"left": 276,
+		"top": 196,
+		"width": 1466,
+		"height": 745
+	},
+	"Sources/Forms/qQuadrature/ObjectMethods/srcDataDa1.4dm": {
+		"left": 298,
+		"top": 221,
+		"width": 1466,
+		"height": 745
+	},
+	"Sources/Forms/qQuadrature/ObjectMethods/PopupDate.4dm": {
+		"left": 435,
+		"top": 187,
+		"width": 1466,
+		"height": 745
+	},
+	"Sources/Forms/qQuadrature/ObjectMethods/srcDataA1.4dm": {
+		"left": 298,
+		"top": 221,
+		"width": 1466,
+		"height": 745
+	},
+	"Sources/Forms/qQuadrature/ObjectMethods/srcDataDa.4dm": {
+		"left": 299,
+		"top": 317,
+		"width": 1466,
+		"height": 745
+	},
+	"Sources/Forms/qQuadrature/ObjectMethods/srcDataA.4dm": {
+		"left": 298,
+		"top": 221,
+		"width": 1466,
+		"height": 745
+	},
+	"Sources/Forms/qQuadratureModifica/method.4dm": {
+		"left": 353,
+		"top": 103,
+		"width": 1728,
+		"height": 910
+	},
+	"Sources/Forms/qQuadratureModifica/ObjectMethods/bCancel.4dm": {
+		"left": 353,
+		"top": 103,
+		"width": 1728,
+		"height": 910
+	},
+	"Sources/Forms/qQuadratureModifica/ObjectMethods/bValidate.4dm": {
+		"left": 353,
+		"top": 103,
+		"width": 1728,
+		"height": 910
+	},
+	"Sources/Methods/qQuadratureModifica.4dm": {
+		"left": 353,
+		"top": 103,
+		"width": 1728,
+		"height": 910
+	},
+	"Sources/Forms/qQuadratureModifica/ObjectMethods/vPR_bozza.4dm": {
+		"left": 11,
+		"top": 110,
+		"width": 1609,
+		"height": 936
 	}
 }

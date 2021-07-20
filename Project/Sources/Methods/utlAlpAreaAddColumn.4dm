@@ -32,6 +32,7 @@ If ($0=0)
 		AL_SetColumnRealProperty ($1->;$2;ALP_Column_Width;$6;1)
 	End if 
 	AL_SetColumnLongProperty ($1->;$2;ALP_Column_HorAlign;$7;1)  //center
+	AL_SetColumnTextProperty ($1->;$2;ALP_Column_FtrHorAlign;$7;1)
 	AL_SetColumnLongProperty ($1->;$2;ALP_Column_Attributed;1;1)  //multistyle
 	AL_SetColumnTextProperty ($1->;$2;ALP_Column_Format;$8;1)
 	AL_SetColumnLongProperty ($1->;$2;ALP_Column_Enterable;$9;1)

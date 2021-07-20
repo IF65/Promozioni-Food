@@ -9,6 +9,12 @@
 					"link": 32001
 				},
 				{
+					"link": 32000
+				},
+				{
+					"link": 32004
+				},
+				{
 					"link": 32002
 				},
 				{
@@ -130,6 +136,38 @@
 				{
 					"title": "IF65",
 					"method": "pfTemplate"
+				}
+			]
+		},
+		{
+			"link": 32000,
+			"title": "Quadrature",
+			"items": [
+				{
+					"title": "Situazione Caricamento",
+					"method": "qQuadrature"
+				},
+				{
+					"title": "Item 2",
+					"isSeparator": true
+				},
+				{
+					"title": "Fondi Cassa"
+				},
+				{
+					"title": "Prelievi"
+				},
+				{
+					"title": "Distinte Cassieri"
+				}
+			]
+		},
+		{
+			"link": 32004,
+			"title": "Report",
+			"items": [
+				{
+					"title": "Item 1"
 				}
 			]
 		}

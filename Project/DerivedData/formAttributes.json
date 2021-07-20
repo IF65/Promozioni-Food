@@ -1,4 +1,4 @@
-﻿{
+{
 	"forms": {
 		"pfNegozi": {
 			"timeStamp": "2020-09-29T19:23:06.000Z",
@@ -22,6 +22,10 @@
 		},
 		"pfTemplate": {
 			"timeStamp": "2020-09-29T19:23:06.000Z",
+			"destination": "detailScreen"
+		},
+		"qQuadrature": {
+			"timeStamp": "2021-07-17T04:39:26.427Z",
 			"destination": "detailScreen"
 		},
 		"pfPromozioniInserimento": {
@@ -50,6 +54,10 @@
 		},
 		"pfAderenti": {
 			"timeStamp": "2020-11-09T13:48:06.000Z",
+			"destination": "detailScreen"
+		},
+		"qQuadratureModifica": {
+			"timeStamp": "2021-07-19T08:33:30.188Z",
 			"destination": "detailScreen"
 		}
 	}

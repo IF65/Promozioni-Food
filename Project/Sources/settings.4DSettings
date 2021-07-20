@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?><preferences stamp="7">
+﻿<?xml version="1.0" encoding="UTF-8"?><preferences stamp="8">
 	<com.4d>
 		<deployment>
 			<options/>
@@ -7,13 +7,23 @@
 		<server>
 			<network>
 				<client_server use_encryption="false"/>
-				<options publication_name="PFood"/>
+				<options publication_name="PFood" publish_at_startup="false"/>
 			</network>
 		</server>
 		<web>
 			<standalone_server>
 				<configuration port_number="80" publish_at_startup="true"/>
+				<webservices>
+					<server name="A_WebService"/>
+				</webservices>
 			</standalone_server>
 		</web>
+		<php ip_address="127.0.0.1"/>
+		<sql>
+			<publication port_number="19812"/>
+		</sql>
+		<database>
+			<cache flush_buffer_delay="20s"/>
+		</database>
 	</com.4d>
 </preferences>

@@ -19,11 +19,21 @@ $font:="Arial"
 $font_size:=11
 $font_bold:=0
 $font_header:="Arial"
-$font_header_size:=10
+$font_header_size:=11
 $font_header_bold:=1
 $font_footer:="Arial"
-$font_footer_size:=10
+$font_footer_size:=11
 $font_footer_bold:=1
+
+  //$font:="Arial"
+  //$font_size:=11
+  //$font_bold:=0
+  //$font_header:="Arial"
+  //$font_header_size:=10
+  //$font_header_bold:=1
+  //$font_footer:="Arial"
+  //$font_footer_size:=10
+  //$font_footer_bold:=1
 
 AL_SetAreaLongProperty ($1;ALP_Area_AutoSnapLastColumn;1)
 AL_SetAreaLongProperty ($1;ALP_Area_ShowColDividers;1)
@@ -58,6 +68,7 @@ AL_SetColumnTextProperty ($1;-2;ALP_Column_HdrFontName;$font_footer;1)
 AL_SetColumnLongProperty ($1;-2;ALP_Column_HdrHorAlign;2;1)  //center
 AL_SetColumnLongProperty ($1;-2;ALP_Column_HdrVertAlign;2;1)  //center
 AL_SetColumnLongProperty ($1;-2;ALP_Column_HdrWrap;0;1)
+AL_SetColumnTextProperty ($1;-2;ALP_Column_FtrFontName;$font_footer;1)
 AL_SetColumnRealProperty ($1;-2;ALP_Column_FtrSize;$font_footer_size;1)
 AL_SetColumnLongProperty ($1;-2;ALP_Column_FtrStyleB;$font_footer_bold;1)
 AL_SetColumnLongProperty ($1;-2;ALP_Column_FtrVertAlign;1;1)
