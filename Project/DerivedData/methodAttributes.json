@@ -24,6 +24,9 @@
 		"utlPlugInRegistration": {
 			"timeStamp": "2020-09-29T19:23:06.000Z"
 		},
+		"Method87": {
+			"timeStamp": "2021-07-21T06:04:19.814Z"
+		},
 		"utlCreaBarcodeCatalina": {
 			"timeStamp": "2020-09-29T19:23:06.000Z"
 		},
@@ -35,6 +38,9 @@
 		},
 		"catalinaCaricamento_ACPT": {
 			"timeStamp": "2021-05-14T13:46:34.127Z"
+		},
+		"filterDatacollect": {
+			"timeStamp": "2021-07-22T12:43:50.564Z"
 		},
 		"utlCercaArticoloPerCodice": {
 			"timeStamp": "2021-05-31T15:06:11.741Z"
@@ -60,9 +66,6 @@
 		"utlQuit": {
 			"timeStamp": "2020-09-29T19:23:06.000Z"
 		},
-		"qQuadrature": {
-			"timeStamp": "2021-07-17T04:43:31.147Z"
-		},
 		"utlPromozioniIF652Excel": {
 			"timeStamp": "2020-09-30T13:10:45.000Z"
 		},
@@ -79,13 +82,16 @@
 			"timeStamp": "2021-01-11T08:11:52.998Z"
 		},
 		"_marco": {
-			"timeStamp": "2021-04-11T19:26:10.940Z"
+			"timeStamp": "2021-07-22T05:42:24.005Z"
 		},
 		"_marco4": {
 			"timeStamp": "2021-02-10T06:09:39.127Z"
 		},
 		"_marco6": {
-			"timeStamp": "2021-07-09T14:54:16.591Z"
+			"timeStamp": "2021-07-28T12:48:11.206Z"
+		},
+		"_marco7": {
+			"timeStamp": "2021-07-21T14:01:43.334Z"
 		},
 		"utlElencoAderenti": {
 			"timeStamp": "2020-09-29T19:23:06.000Z"
@@ -101,6 +107,9 @@
 		},
 		"templateCaricamento_0501": {
 			"timeStamp": "2021-06-10T16:24:17.678Z"
+		},
+		"mapEod": {
+			"timeStamp": "2021-07-20T05:58:12.847Z"
 		},
 		"_marco2": {
 			"timeStamp": "2020-10-23T12:56:12.000Z"
@@ -177,11 +186,17 @@
 		"pfEsportaSuExcel": {
 			"timeStamp": "2021-06-11T08:15:50.864Z"
 		},
+		"mapStatus": {
+			"timeStamp": "2021-07-22T04:01:52.606Z"
+		},
 		"utlAlpAreaAddCalculatedColumn": {
 			"timeStamp": "2020-09-29T19:23:06.000Z"
 		},
 		"_creazioneCatalina_0503": {
 			"timeStamp": "2021-05-23T22:37:38.947Z"
+		},
+		"qCaricamentoDatacollect": {
+			"timeStamp": "2021-07-28T07:11:21.329Z"
 		},
 		"qDettagli": {
 			"timeStamp": "2021-04-15T14:03:18.296Z"
@@ -228,65 +243,8 @@
 		"pfCaricamentoPromozione": {
 			"timeStamp": "2020-09-29T19:23:06.000Z"
 		},
-		"(utlNuovaPromovarPI)": {
-			"timeStamp": "2020-09-29T19:23:06.000Z",
-			"attributes": {
-				"invisible": true
-			}
-		},
-		"(utlCaricamentoCatalina2)": {
-			"timeStamp": "2020-09-29T19:23:06.000Z",
-			"attributes": {
-				"invisible": true
-			}
-		},
-		"(creaCodiciCatalina)": {
-			"timeStamp": "2020-09-29T19:23:06.000Z",
-			"attributes": {
-				"invisible": true
-			}
-		},
-		"(_test1)": {
-			"timeStamp": "2020-09-29T19:23:06.000Z",
-			"attributes": {
-				"invisible": true
-			}
-		},
-		"(_test_1)": {
-			"timeStamp": "2020-09-29T19:23:06.000Z",
-			"attributes": {
-				"invisible": true
-			}
-		},
-		"(_marco)": {
-			"timeStamp": "2020-09-29T19:23:06.000Z",
-			"attributes": {
-				"invisible": true
-			}
-		},
-		"(_test)": {
-			"timeStamp": "2020-09-29T19:23:06.000Z",
-			"attributes": {
-				"invisible": true
-			}
-		},
-		"(_curriculum)": {
-			"timeStamp": "2020-09-29T19:23:06.000Z",
-			"attributes": {
-				"invisible": true
-			}
-		},
-		"(utlCaricamentoCatalina)": {
-			"timeStamp": "2020-09-29T19:23:06.000Z",
-			"attributes": {
-				"invisible": true
-			}
-		},
-		"(utlCaricamentoCatalina1)": {
-			"timeStamp": "2020-09-29T19:23:06.000Z",
-			"attributes": {
-				"invisible": true
-			}
+		"qTransazioni": {
+			"timeStamp": "2021-07-22T15:07:30.124Z"
 		}
 	}
 }

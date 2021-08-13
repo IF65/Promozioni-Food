@@ -1,4 +1,4 @@
-﻿{
+{
 	"bars": [
 		{
 			"id": 1,
@@ -10,9 +10,6 @@
 				},
 				{
 					"link": 32000
-				},
-				{
-					"link": 32004
 				},
 				{
 					"link": 32002
@@ -141,33 +138,19 @@
 		},
 		{
 			"link": 32000,
-			"title": "Quadrature",
+			"title": "Datacollect",
 			"items": [
 				{
 					"title": "Situazione Caricamento",
-					"method": "qQuadrature"
+					"method": "qCaricamentoDatacollect"
 				},
 				{
 					"title": "Item 2",
 					"isSeparator": true
 				},
 				{
-					"title": "Fondi Cassa"
-				},
-				{
-					"title": "Prelievi"
-				},
-				{
-					"title": "Distinte Cassieri"
-				}
-			]
-		},
-		{
-			"link": 32004,
-			"title": "Report",
-			"items": [
-				{
-					"title": "Item 1"
+					"title": "Consultazione",
+					"method": "qTransazioni"
 				}
 			]
 		}

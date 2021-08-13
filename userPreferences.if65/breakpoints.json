@@ -1,4 +1,4 @@
-﻿[
+[
 	{
 		"line": 444,
 		"method": {
@@ -79,7 +79,7 @@
 		}
 	},
 	{
-		"line": 95,
+		"line": 26,
 		"method": {
 			"type": 1,
 			"methodName": "_marco6"
@@ -90,15 +90,6 @@
 		"method": {
 			"type": 1,
 			"methodName": "_marco5"
-		}
-	},
-	{
-		"line": 170,
-		"method": {
-			"type": 2,
-			"formName": "qQuadrature",
-			"objectName": "alpQuadrature",
-			"methodPath": "/SOURCES/Forms/qQuadrature/ObjectMethods/alpQuadrature.4dm"
 		}
 	}
 ]

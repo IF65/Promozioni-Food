@@ -8,12 +8,62 @@
 // -------------------------------------------------
 <>itmServer:="10.11.14.78"
 <>bflServer:="10.11.14.74"
+<>qServer:="10.11.14.128"
+<>qReport:="10.11.14.248"
 
 // tipo progressivi
 // -------------------------------------------------
 <>progPromozione:=0
 <>progPromovarPI:=1
 <>progPromovarPMT:=2
+
+// stato/eod quadrature
+// -------------------------------------------------
+
+// status(flag)
+// 0=caricamento dati in attesa di cominciare o in corso
+// 1=caricamento in corso ma giornata fiscalmente chiusa(dati spostati da idc=>idc_eod su mtx)
+// 2=giornata fiscalmente chiusa e completamente caricata(è verificato che l'ultimo sequencenumber sia già stato caricato)
+// 3=negozio non aperto al pubblico.
+
+<>qCode2Status:=New object:C1471(\
+"0"; "CARICAMENTO IN CORSO"; \
+"1"; "CARICAMENTO TERMINATO"; \
+"2"; "GIORNATA TERMINATA"; \
+"3"; "NEGOZIO NON APERTO"; \
+)
+
+<>qStatus2Code:=New object:C1471()
+For each ($item; <>qCode2Status)
+	<>qStatus2Code[<>qCode2Status[$item]]:=$item
+End for each 
+
+<>qStatusDescriptionList:=New list:C375
+For each ($item; <>qCode2Status)
+	$id:=Num:C11(<>qStatus2Code[<>qCode2Status[$item]])
+	APPEND TO LIST:C376(<>qStatusDescriptionList; <>qCode2Status[$item]; $id)
+End for each 
+
+
+// eod(flag)
+// 0 = la giornata è in caricamento o conclusa e il calcolo finale non è ancora stato
+// 1 = la giornata è conclusa ed è stato fatto il calcolo finale degli importi
+<>qCode2Eod:=New object:C1471(\
+"0"; "GIORNATA APERTA"; \
+"1"; "CHIUSURA EFFETTUATA"; \
+)
+
+<>qEod2Code:=New object:C1471()
+For each ($item; <>qCode2Eod)
+	<>qEod2Code[<>qCode2Eod[$item]]:=$item
+End for each 
+
+<>qEodDescriptionList:=New list:C375
+For each ($item; <>qCode2Eod)
+	$id:=Num:C11(<>qEod2Code[<>qCode2Eod[$item]])
+	APPEND TO LIST:C376(<>qEodDescriptionList; <>qCode2Eod[$item]; $id)
+End for each 
+
 
 // reparti
 // -------------------------------------------------

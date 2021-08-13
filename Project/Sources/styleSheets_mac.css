@@ -19,3 +19,12 @@
 	font-size: 10px;
 	font-weight: bold;
 }
+
+listbox {
+	font-family: Arial;
+	font-size: 11px;
+}
+
+.listbox_header {
+	font-weight: bold;
+}

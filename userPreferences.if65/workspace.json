@@ -1,7 +1,15 @@
 {
 	"editors": [
 		{
-			"type": "toolbox"
+			"type": "method",
+			"id": 2147483619,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "_marco6"
+			}
+		},
+		{
+			"type": "explorer"
 		}
 	]
 }

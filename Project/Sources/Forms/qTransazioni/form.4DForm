@@ -1,0 +1,618 @@
+{
+	"destination": "detailScreen",
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"rightMargin": 0,
+	"bottomMargin": 0,
+	"menuBar": "Menu Bar #1",
+	"markerHeader": 15,
+	"markerBody": 200,
+	"markerBreak": 220,
+	"markerFooter": 240,
+	"events": [
+		"onLoad",
+		"onUnload",
+		"onResize"
+	],
+	"method": "method.4dm",
+	"pageFormat": {
+		"paperName": "A4",
+		"paperWidth": "842pt",
+		"paperHeight": "595pt"
+	},
+	"pages": [
+		null,
+		{
+			"objects": {
+				"Group Box3": {
+					"type": "groupBox",
+					"top": 13,
+					"left": 285,
+					"width": 113,
+					"height": 46,
+					"class": "Supermedia_Label",
+					"text": "Data"
+				},
+				"Group Box2": {
+					"type": "groupBox",
+					"top": 13,
+					"left": 841,
+					"width": 440,
+					"height": 46,
+					"class": "Supermedia_Label",
+					"text": "Opzioni",
+					"sizingX": "grow"
+				},
+				"Line": {
+					"type": "line",
+					"top": 769,
+					"left": 0,
+					"width": 1291,
+					"sizingX": "grow",
+					"sizingY": "move",
+					"stroke": "#DDDDDD",
+					"strokeWidth": 0.1,
+					"height": 0,
+					"startPoint": "topLeft"
+				},
+				"notePiePagina": {
+					"type": "input",
+					"top": 770,
+					"left": 7,
+					"width": 1022,
+					"height": 13,
+					"sizingX": "grow",
+					"sizingY": "move",
+					"dataSource": "notePiePagina",
+					"class": "Supermedia_Bottoni",
+					"focusable": false,
+					"fill": "transparent",
+					"borderStyle": "none",
+					"enterable": false,
+					"contextMenu": "none",
+					"dragging": "none",
+					"dropping": "custom",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Invisible Button1": {
+					"type": "button",
+					"top": 6,
+					"left": 1268,
+					"width": 9,
+					"height": 7,
+					"dataSource": "Invisible Button",
+					"shortcutKey": "[Enter]",
+					"display": false,
+					"events": [
+						"onClick"
+					],
+					"sizingX": "move"
+				},
+				"Group Box6": {
+					"type": "groupBox",
+					"top": 13,
+					"left": 7,
+					"width": 273,
+					"height": 46,
+					"class": "Supermedia_Label",
+					"text": "Sede"
+				},
+				"srcSediDescrizione": {
+					"type": "dropdown",
+					"top": 31,
+					"left": 15,
+					"width": 257,
+					"height": 20,
+					"dataSource": "srcSediDescrizione",
+					"class": "Supermedia_Bottoni",
+					"method": "ObjectMethods/srcSediDescrizione.4dm",
+					"events": [
+						"onLoad",
+						"onClick",
+						"onDataChange"
+					],
+					"focusable": false
+				},
+				"srcData": {
+					"type": "input",
+					"top": 34,
+					"left": 294,
+					"width": 68,
+					"height": 14,
+					"dataSource": "srcData",
+					"dataSourceTypeHint": "date",
+					"class": "Supermedia_Campi_12",
+					"contextMenu": "none",
+					"dateFormat": "short",
+					"entryFilter": "!0&9##/##/####",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/srcData.4dm",
+					"events": []
+				},
+				"srcData1": {
+					"type": "subform",
+					"top": 33,
+					"left": 368,
+					"width": 19,
+					"height": 16,
+					"dataSource": "srcData",
+					"dataSourceTypeHint": "date",
+					"detailForm": "DateButton",
+					"focusable": false,
+					"deletableInList": false,
+					"doubleClickInRowAction": "editSubrecord",
+					"doubleClickInEmptyAreaAction": "addSubrecord",
+					"selectionMode": "multiple",
+					"printFrame": "variable",
+					"method": "ObjectMethods/srcData1.4dm",
+					"events": [
+						"onLoad"
+					]
+				},
+				"Button1": {
+					"type": "button",
+					"top": 743,
+					"left": 7,
+					"width": 125,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "Button1",
+					"shortcutKey": "[F1]",
+					"text": " Ricerca - F1",
+					"class": "Supermedia_Bottoni",
+					"fontWeight": "bold",
+					"focusable": false,
+					"method": "ObjectMethods/Button1.4dm",
+					"events": [
+						"onClick"
+					],
+					"style": "regular"
+				},
+				"Button2": {
+					"type": "button",
+					"top": 743,
+					"left": 135,
+					"width": 125,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "Button2",
+					"shortcutKey": "[F2]",
+					"text": " Nuova Ricerca - F2",
+					"class": "Supermedia_Bottoni",
+					"fontWeight": "bold",
+					"focusable": false,
+					"method": "ObjectMethods/Button2.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button3": {
+					"type": "button",
+					"top": 743,
+					"left": 263,
+					"width": 125,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "Button3",
+					"text": "",
+					"class": "Supermedia_Bottoni",
+					"fontWeight": "bold",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Button4": {
+					"type": "button",
+					"top": 743,
+					"left": 391,
+					"width": 125,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "Button4",
+					"text": "",
+					"class": "Supermedia_Bottoni",
+					"fontWeight": "bold",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Button5": {
+					"type": "button",
+					"top": 743,
+					"left": 519,
+					"width": 125,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "Button5",
+					"class": "Supermedia_Bottoni",
+					"fontWeight": "bold",
+					"focusable": false,
+					"events": [
+						"onClick"
+					],
+					"text": "Esporta Datacollect",
+					"method": "ObjectMethods/Button5.4dm"
+				},
+				"Button6": {
+					"type": "button",
+					"top": 743,
+					"left": 647,
+					"width": 125,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "Button6",
+					"text": "",
+					"class": "Supermedia_Bottoni",
+					"fontWeight": "bold",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Button7": {
+					"type": "button",
+					"top": 743,
+					"left": 775,
+					"width": 125,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "Button7",
+					"class": "Supermedia_Bottoni",
+					"fontWeight": "bold",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Button8": {
+					"type": "button",
+					"top": 743,
+					"left": 903,
+					"width": 125,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "Button8",
+					"class": "Supermedia_Bottoni",
+					"fontWeight": "bold",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"Button9": {
+					"type": "button",
+					"top": 743,
+					"left": 1031,
+					"width": 125,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "Button9",
+					"text": "Stampa",
+					"class": "Supermedia_Bottoni",
+					"fontWeight": "bold",
+					"focusable": false,
+					"method": "ObjectMethods/Button9.4dm",
+					"events": [
+						"onClick"
+					]
+				},
+				"Button10": {
+					"type": "button",
+					"top": 743,
+					"left": 1159,
+					"width": 125,
+					"height": 20,
+					"sizingY": "move",
+					"dataSource": "Button10",
+					"action": "cancel",
+					"text": "Esci",
+					"class": "Supermedia_Bottoni",
+					"fontWeight": "bold",
+					"focusable": false,
+					"events": [
+						"onClick"
+					]
+				},
+				"List Box": {
+					"type": "listbox",
+					"left": 8,
+					"top": 76,
+					"width": 333,
+					"height": 650,
+					"events": [
+						"onLoad",
+						"onClick",
+						"onDataChange",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"listboxType": "collection",
+					"dataSource": "cElencoTransazioni",
+					"alternateFill": "#F0F0F0",
+					"headerHeight": "2em",
+					"showFooters": true,
+					"rowHeight": "24px",
+					"footerHeight": "24px",
+					"hideFocusRing": true,
+					"scrollbarHorizontal": "hidden",
+					"verticalAlign": "middle",
+					"class": "",
+					"horizontalLineStroke": "automatic",
+					"method": "ObjectMethods/List Box.4dm",
+					"selectedItemsSource": "selectedItems",
+					"currentItemSource": "currentItem",
+					"currentItemPositionSource": "currentItemPosition",
+					"sizingY": "grow",
+					"sizingX": "grow",
+					"selectionMode": "multiple",
+					"columns": [
+						{
+							"header": {
+								"name": "Header2",
+								"text": "Cassa",
+								"class": "listbox_header"
+							},
+							"name": "Column2",
+							"dataSource": "This:C1470.reg",
+							"dataSourceTypeHint": "date",
+							"footer": {
+								"name": "Footer2",
+								"fill": "automatic",
+								"dataSource": "regCount",
+								"dataSourceTypeHint": "number",
+								"numberFormat": "###,##0",
+								"textAlign": "center",
+								"fontWeight": "bold"
+							},
+							"width": 90,
+							"dateFormat": "short",
+							"textAlign": "center",
+							"enterable": false,
+							"minWidth": 90
+						},
+						{
+							"header": {
+								"name": "Header1",
+								"text": "Trans.",
+								"class": "listbox_header"
+							},
+							"name": "Column1",
+							"dataSource": "This:C1470.trans",
+							"dataSourceTypeHint": "number",
+							"footer": {
+								"name": "Footer1",
+								"fill": "automatic",
+								"dataSource": "transactionCount",
+								"dataSourceTypeHint": "number",
+								"numberFormat": "###,###,##0",
+								"textAlign": "center",
+								"fontWeight": "bold"
+							},
+							"width": 69,
+							"numberFormat": "###,##0",
+							"textAlign": "center",
+							"enterable": false,
+							"minWidth": 69
+						},
+						{
+							"header": {
+								"name": "Header5",
+								"text": "Ora",
+								"class": "listbox_header"
+							},
+							"name": "Column5",
+							"dataSource": "This:C1470.ttime",
+							"dataSourceTypeHint": "text",
+							"footer": {
+								"name": "Footer5",
+								"fill": "automatic",
+								"dataSource": "",
+								"dataSourceTypeHint": "text",
+								"textAlign": "center",
+								"fontWeight": "bold",
+								"variableCalculation": "maximum"
+							},
+							"width": 69,
+							"numberFormat": "###,##0",
+							"textAlign": "center",
+							"enterable": false,
+							"minWidth": 69
+						},
+						{
+							"header": {
+								"name": "Header6",
+								"text": "Importo",
+								"class": "listbox_header"
+							},
+							"name": "Column6",
+							"dataSource": "This:C1470.totalAmount",
+							"dataSourceTypeHint": "number",
+							"footer": {
+								"name": "Footer6",
+								"fill": "automatic",
+								"textAlign": "right",
+								"variableCalculation": "none",
+								"dataSourceTypeHint": "number",
+								"numberFormat": "###,###,##0.00",
+								"dataSource": "totalAmount",
+								"fontWeight": "bold"
+							},
+							"numberFormat": "###,###,##0.00",
+							"width": 90,
+							"textAlign": "right",
+							"enterable": false,
+							"minWidth": 90
+						}
+					]
+				},
+				"List Box1": {
+					"type": "listbox",
+					"left": 354,
+					"top": 76,
+					"width": 927,
+					"height": 650,
+					"events": [
+						"onLoad",
+						"onClick",
+						"onDataChange",
+						"onSelectionChange",
+						"onHeaderClick"
+					],
+					"listboxType": "collection",
+					"dataSource": "cDatacollectSelection",
+					"alternateFill": "#F0F0F0",
+					"headerHeight": "24px",
+					"showFooters": false,
+					"rowHeight": "24px",
+					"footerHeight": "24px",
+					"hideFocusRing": true,
+					"scrollbarHorizontal": "hidden",
+					"verticalAlign": "middle",
+					"class": "",
+					"horizontalLineStroke": "#F5F5F5",
+					"method": "ObjectMethods/List Box1.4dm",
+					"selectedItemsSource": "",
+					"currentItemSource": "",
+					"currentItemPositionSource": "",
+					"sizingY": "grow",
+					"sizingX": "grow",
+					"selectionMode": "multiple",
+					"showHeaders": true,
+					"verticalLineStroke": "transparent",
+					"resizingMode": "rightToLeft",
+					"fontWeight": "normal",
+					"singleClickEdit": false,
+					"columns": [
+						{
+							"header": {
+								"name": "Header3",
+								"text": "Datacollect",
+								"class": "listbox_header",
+								"fontFamily": "Arial",
+								"fontSize": 11
+							},
+							"name": "Column3",
+							"footer": {
+								"name": "Footer3"
+							},
+							"dataSource": "This:C1470.row",
+							"width": 580,
+							"fontFamily": "Monaco",
+							"fontSize": 12,
+							"fontWeight": "normal"
+						}
+					]
+				},
+				"Group Box4": {
+					"type": "groupBox",
+					"top": 13,
+					"left": 407,
+					"width": 427,
+					"height": 46,
+					"class": "Supermedia_Label",
+					"text": "Filtri di Ricerca"
+				},
+				"srcBarcode": {
+					"type": "input",
+					"top": 34,
+					"left": 463,
+					"width": 118,
+					"height": 14,
+					"dataSource": "srcBarcode",
+					"dataSourceTypeHint": "number",
+					"class": "Supermedia_Campi_12",
+					"contextMenu": "none",
+					"entryFilter": "&9",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/srcBarcode.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text": {
+					"type": "text",
+					"text": "Barcode",
+					"top": 35,
+					"left": 417,
+					"width": 44,
+					"height": 12,
+					"class": "Supermedia_Label"
+				},
+				"srcImporto": {
+					"type": "input",
+					"top": 34,
+					"left": 643,
+					"width": 58,
+					"height": 14,
+					"dataSource": "srcImporto",
+					"dataSourceTypeHint": "number",
+					"class": "Supermedia_Campi_12",
+					"contextMenu": "none",
+					"entryFilter": "&9",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/srcImporto.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text1": {
+					"type": "text",
+					"text": "Importo",
+					"top": 35,
+					"left": 597,
+					"width": 44,
+					"height": 12,
+					"class": "Supermedia_Label"
+				},
+				"srcQuantita": {
+					"type": "input",
+					"top": 34,
+					"left": 763,
+					"width": 58,
+					"height": 14,
+					"dataSource": "srcQuantita",
+					"dataSourceTypeHint": "number",
+					"class": "Supermedia_Campi_12",
+					"contextMenu": "none",
+					"entryFilter": "&9",
+					"dragging": "none",
+					"dropping": "custom",
+					"method": "ObjectMethods/srcQuantita.4dm",
+					"events": [
+						"onDataChange"
+					]
+				},
+				"Text2": {
+					"type": "text",
+					"text": "Quantità",
+					"top": 35,
+					"left": 717,
+					"width": 44,
+					"height": 12,
+					"class": "Supermedia_Label"
+				}
+			}
+		}
+	],
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"geometryStamp": 860,
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	},
+	"windowMinWidth": 1291,
+	"windowMinHeight": 783
+}

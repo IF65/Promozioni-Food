@@ -1,4 +1,4 @@
-﻿{
+{
 	"Sources/Methods/pfPromozioni.4dm": {
 		"left": 350,
 		"top": 103,
@@ -1074,10 +1074,10 @@
 		"height": 936
 	},
 	"Sources/Methods/qQuadrature.4dm": {
-		"left": 11,
-		"top": 110,
+		"left": 301,
+		"top": 158,
 		"width": 1609,
-		"height": 936
+		"height": 910
 	},
 	"Sources/Forms/qQuadrature/ObjectMethods/Button1.4dm": {
 		"left": 18,
@@ -1174,5 +1174,203 @@
 		"top": 110,
 		"width": 1609,
 		"height": 936
+	},
+	"Sources/Methods/mapStatus.4dm": {
+		"left": 11,
+		"top": 110,
+		"width": 1609,
+		"height": 936
+	},
+	"Sources/Methods/mapEod.4dm": {
+		"left": 11,
+		"top": 110,
+		"width": 1609,
+		"height": 936
+	},
+	"Sources/Forms/qQuadrature/ObjectMethods/List Box.4dm": {
+		"left": 18,
+		"top": 118,
+		"width": 1520,
+		"height": 962
+	},
+	"Sources/Forms/qQuadrature/ObjectMethods/Column8.4dm": {
+		"left": 18,
+		"top": 118,
+		"width": 1520,
+		"height": 962
+	},
+	"Sources/Classes/quadrature.4dm": {
+		"left": 18,
+		"top": 118,
+		"width": 1520,
+		"height": 962
+	},
+	"Sources/Classes/Quadratura.4dm": {
+		"left": 18,
+		"top": 118,
+		"width": 1520,
+		"height": 962
+	},
+	"Sources/Methods/Method87.4dm": {
+		"left": 18,
+		"top": 118,
+		"width": 1520,
+		"height": 962
+	},
+	"Trash/Methods/(test).4dm": {
+		"left": 18,
+		"top": 118,
+		"width": 1520,
+		"height": 962
+	},
+	"Sources/Classes/Distinta.4dm": {
+		"left": 186,
+		"top": 163,
+		"width": 1520,
+		"height": 962
+	},
+	"Sources/Forms/qQuadrature/ObjectMethods/Button5.4dm": {
+		"left": 94,
+		"top": 118,
+		"width": 1520,
+		"height": 962
+	},
+	"Sources/Forms/qQuadrature/ObjectMethods/Button2.4dm": {
+		"left": 18,
+		"top": 118,
+		"width": 1520,
+		"height": 962
+	},
+	"Sources/Methods/qTransazioni.4dm": {
+		"left": 372,
+		"top": 103,
+		"width": 1520,
+		"height": 962
+	},
+	"Sources/Forms/qTransazioni/ObjectMethods/srcData1.4dm": {
+		"left": 18,
+		"top": 118,
+		"width": 1520,
+		"height": 962
+	},
+	"Sources/Forms/qTransazioni/ObjectMethods/srcData.4dm": {
+		"left": 18,
+		"top": 118,
+		"width": 1520,
+		"height": 962
+	},
+	"Sources/Forms/qTransazioni/method.4dm": {
+		"left": 18,
+		"top": 118,
+		"width": 1520,
+		"height": 962
+	},
+	"Sources/Forms/qTransazioni/ObjectMethods/Button1.4dm": {
+		"left": 18,
+		"top": 118,
+		"width": 1520,
+		"height": 962
+	},
+	"Sources/Forms/qTransazioni/ObjectMethods/srcSediDescrizione.4dm": {
+		"left": 18,
+		"top": 118,
+		"width": 1520,
+		"height": 962
+	},
+	"Sources/Forms/qTransazioni/ObjectMethods/List Box.4dm": {
+		"left": 330,
+		"top": 118,
+		"width": 1520,
+		"height": 962
+	},
+	"Sources/Methods/_marco7.4dm": {
+		"left": 18,
+		"top": 118,
+		"width": 1520,
+		"height": 962
+	},
+	"Sources/Forms/qTransazioni/ObjectMethods/List Box1.4dm": {
+		"left": 18,
+		"top": 118,
+		"width": 1520,
+		"height": 962
+	},
+	"Sources/Forms/qQuadrature/ObjectMethods/Button3.4dm": {
+		"left": 18,
+		"top": 118,
+		"width": 1520,
+		"height": 962
+	},
+	"Sources/Forms/qQuadrature/ObjectMethods/colStatus.4dm": {
+		"left": 18,
+		"top": 118,
+		"width": 1520,
+		"height": 962
+	},
+	"Sources/Forms/qQuadrature/ObjectMethods/Column3.4dm": {
+		"left": 18,
+		"top": 118,
+		"width": 1520,
+		"height": 962
+	},
+	"Sources/Forms/qQuadrature/ObjectMethods/statusDescription.4dm": {
+		"left": 18,
+		"top": 118,
+		"width": 1520,
+		"height": 962
+	},
+	"Sources/Forms/qQuadrature/ObjectMethods/Column6.4dm": {
+		"left": 18,
+		"top": 118,
+		"width": 1520,
+		"height": 962
+	},
+	"Sources/Forms/qQuadrature/ObjectMethods/eodDescription.4dm": {
+		"left": 18,
+		"top": 118,
+		"width": 1520,
+		"height": 962
+	},
+	"Sources/Methods/filterDatacollect.4dm": {
+		"left": 521,
+		"top": 200,
+		"width": 1455,
+		"height": 869
+	},
+	"Sources/Forms/qTransazioni/ObjectMethods/Button5.4dm": {
+		"left": 372,
+		"top": 103,
+		"width": 1520,
+		"height": 962
+	},
+	"Sources/Forms/qTransazioni/ObjectMethods/vpExportExcel.4dm": {
+		"left": 372,
+		"top": 103,
+		"width": 1520,
+		"height": 962
+	},
+	"Sources/Methods/qCaricamentoDatacollect.4dm": {
+		"left": 372,
+		"top": 103,
+		"width": 1520,
+		"height": 962
+	},
+	"Sources/Forms/qCaricamentoDatacollect/method.4dm": {
+		"left": 372,
+		"top": 103,
+		"width": 1520,
+		"height": 962
+	},
+	"Sources/Forms/qCaricamentoDatacollect/ObjectMethods/statusDescription.4dm": {
+		"left": 216,
+		"top": 518,
+		"width": 1520,
+		"height": 962
+	},
+	"Sources/Forms/qCaricamentoDatacollect/ObjectMethods/lStatoQuadrature.4dm": {
+		"left": 372,
+		"top": 103,
+		"width": 1520,
+		"height": 962
 	}
 }

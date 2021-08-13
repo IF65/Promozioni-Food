@@ -1,0 +1,2 @@
+qCaricamentoDatacollect("inizializzaRicerca")
+qCaricamentoDatacollect("inizializzaArray")

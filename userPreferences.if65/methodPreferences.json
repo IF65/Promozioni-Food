@@ -1,4 +1,4 @@
-﻿{
+{
 	"Sources/Methods/pfPromozioni.4dm": {
 		"startSelection": 0,
 		"endSelection": 23,
@@ -353,13 +353,13 @@
 		"stamp": "2021-05-14T11:30:25.518Z"
 	},
 	"Sources/Methods/_marco.4dm": {
-		"startSelection": 70,
-		"endSelection": 70,
-		"firstSelectedLine": 32,
-		"lastSelectedLine": 32,
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 18,
+		"lastSelectedLine": 18,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2021-04-11T19:26:10.940Z"
+		"stamp": "2021-07-22T05:42:24.005Z"
 	},
 	"Sources/Methods/catalinaCaricamento_ACPT.4dm": {
 		"startSelection": 30,
@@ -407,10 +407,10 @@
 		"stamp": "2020-09-29T19:23:06.000Z"
 	},
 	"Sources/Methods/templateCaricamento_0054.4dm": {
-		"startSelection": 13,
-		"endSelection": 37,
-		"firstSelectedLine": 5,
-		"lastSelectedLine": 5,
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 23,
+		"lastSelectedLine": 23,
 		"folding": [
 			128,
 			140,
@@ -510,22 +510,22 @@
 		"stamp": "2021-07-15T08:50:23.230Z"
 	},
 	"Sources/Methods/_marco6.4dm": {
-		"startSelection": 29,
-		"endSelection": 29,
-		"firstSelectedLine": 81,
-		"lastSelectedLine": 81,
+		"startSelection": 35,
+		"endSelection": 35,
+		"firstSelectedLine": 21,
+		"lastSelectedLine": 21,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2021-07-09T14:54:16.591Z"
+		"stamp": "2021-07-28T12:48:11.206Z"
 	},
 	"Sources/DatabaseMethods/onStartup.4dm": {
-		"startSelection": 7,
-		"endSelection": 24,
-		"firstSelectedLine": 233,
-		"lastSelectedLine": 233,
+		"startSelection": 25,
+		"endSelection": 25,
+		"firstSelectedLine": 10,
+		"lastSelectedLine": 10,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2021-07-02T13:44:18.224Z"
+		"stamp": "2021-07-25T05:38:15.264Z"
 	},
 	"Sources/DatabaseMethods/onWebConnection.4dm": {
 		"startSelection": 0,
@@ -618,10 +618,10 @@
 		"stamp": "2020-09-29T19:23:06.496Z"
 	},
 	"Sources/Forms/pfPromozioni/ObjectMethods/Button6.4dm": {
-		"startSelection": 0,
+		"startSelection": 7,
 		"endSelection": 0,
-		"firstSelectedLine": 0,
-		"lastSelectedLine": 0,
+		"firstSelectedLine": 120,
+		"lastSelectedLine": 116,
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2021-07-02T14:08:36.359Z"
@@ -1455,8 +1455,8 @@
 	"Sources/Methods/qQuadrature.4dm": {
 		"startSelection": 0,
 		"endSelection": 0,
-		"firstSelectedLine": 17,
-		"lastSelectedLine": 17,
+		"firstSelectedLine": 22,
+		"lastSelectedLine": 22,
 		"folding": [
 			15,
 			20,
@@ -1464,29 +1464,23 @@
 			24,
 			28,
 			32,
-			37,
 			52,
-			65,
-			91,
-			96,
-			115,
-			120,
-			123,
-			131,
-			132,
-			136,
-			137,
-			149,
-			182,
-			193,
-			227
+			59,
+			116,
+			146,
+			151,
+			154,
+			174,
+			207,
+			218,
+			252
 		],
 		"bookmarks": [],
-		"stamp": "2021-07-17T04:43:31.147Z"
+		"stamp": "2021-07-22T08:33:04.795Z"
 	},
 	"Sources/Forms/qQuadrature/ObjectMethods/Button1.4dm": {
-		"startSelection": 27,
-		"endSelection": 27,
+		"startSelection": 26,
+		"endSelection": 26,
 		"firstSelectedLine": 0,
 		"lastSelectedLine": 0,
 		"folding": [],
@@ -1521,17 +1515,13 @@
 		"stamp": "2021-07-16T14:38:17.336Z"
 	},
 	"Sources/Forms/qQuadrature/ObjectMethods/alpQuadrature.4dm": {
-		"startSelection": 20,
-		"endSelection": 20,
-		"firstSelectedLine": 93,
-		"lastSelectedLine": 93,
-		"folding": [
-			88,
-			177,
-			179
-		],
+		"startSelection": 31,
+		"endSelection": 0,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 2,
+		"folding": [],
 		"bookmarks": [],
-		"stamp": "2021-07-19T06:48:01.746Z"
+		"stamp": "2021-07-20T08:49:34.173Z"
 	},
 	"Sources/Methods/utlAlpAreaFormatColumn.4dm": {
 		"startSelection": 0,
@@ -1633,5 +1623,296 @@
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2021-07-19T06:48:24.887Z"
+	},
+	"Sources/Methods/mapStatus.4dm": {
+		"startSelection": 36,
+		"endSelection": 0,
+		"firstSelectedLine": 19,
+		"lastSelectedLine": 14,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-07-22T04:01:52.606Z"
+	},
+	"Sources/Methods/mapEod.4dm": {
+		"startSelection": 9,
+		"endSelection": 9,
+		"firstSelectedLine": 26,
+		"lastSelectedLine": 26,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-07-20T05:58:12.847Z"
+	},
+	"Sources/Forms/qQuadrature/ObjectMethods/List Box.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 13,
+		"lastSelectedLine": 13,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-07-22T07:51:55.939Z"
+	},
+	"Sources/Forms/qQuadrature/ObjectMethods/Column8.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-07-20T12:03:31.159Z"
+	},
+	"Sources/Classes/quadrature.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-07-21T03:28:24.891Z"
+	},
+	"Sources/Classes/Quadratura.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 7,
+		"lastSelectedLine": 7,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-07-21T06:12:38.743Z"
+	},
+	"Sources/Methods/Method87.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-07-21T06:04:19.814Z"
+	},
+	"Sources/Classes/Distinta.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 6,
+		"lastSelectedLine": 6,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-07-21T06:10:45.995Z"
+	},
+	"Sources/Forms/qQuadrature/ObjectMethods/Button5.4dm": {
+		"startSelection": 44,
+		"endSelection": 44,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-07-21T06:57:11.385Z"
+	},
+	"Sources/Forms/qQuadrature/ObjectMethods/Button2.4dm": {
+		"startSelection": 31,
+		"endSelection": 31,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-07-21T08:49:06.865Z"
+	},
+	"Sources/Methods/qTransazioni.4dm": {
+		"startSelection": 87,
+		"endSelection": 87,
+		"firstSelectedLine": 142,
+		"lastSelectedLine": 142,
+		"folding": [
+			146,
+			170
+		],
+		"bookmarks": [],
+		"stamp": "2021-07-22T15:07:30.124Z"
+	},
+	"Sources/Forms/qTransazioni/ObjectMethods/srcData1.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 77,
+		"lastSelectedLine": 77,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-07-21T09:34:06.554Z"
+	},
+	"Sources/Forms/qTransazioni/ObjectMethods/srcData.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-07-21T09:34:12.439Z"
+	},
+	"Sources/Forms/qTransazioni/method.4dm": {
+		"startSelection": 14,
+		"endSelection": 14,
+		"firstSelectedLine": 7,
+		"lastSelectedLine": 7,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-07-21T11:40:29.800Z"
+	},
+	"Sources/Forms/qTransazioni/ObjectMethods/Button1.4dm": {
+		"startSelection": 20,
+		"endSelection": 20,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-07-21T20:14:58.160Z"
+	},
+	"Sources/Forms/qTransazioni/ObjectMethods/srcSediDescrizione.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-07-16T14:38:17.336Z"
+	},
+	"Sources/Forms/qTransazioni/ObjectMethods/List Box.4dm": {
+		"startSelection": 23,
+		"endSelection": 23,
+		"firstSelectedLine": 11,
+		"lastSelectedLine": 11,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-07-22T15:05:56.717Z"
+	},
+	"Sources/Methods/_marco7.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 24,
+		"lastSelectedLine": 24,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-07-21T14:01:43.334Z"
+	},
+	"Sources/Forms/qTransazioni/ObjectMethods/List Box1.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-07-21T21:03:46.511Z"
+	},
+	"Sources/Forms/qQuadrature/ObjectMethods/Button3.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-07-22T04:10:47.494Z"
+	},
+	"Sources/Forms/qQuadrature/ObjectMethods/colStatus.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-07-22T04:23:10.364Z"
+	},
+	"Sources/Forms/qQuadrature/ObjectMethods/Column3.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 6,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-07-22T05:50:44.346Z"
+	},
+	"Sources/Forms/qQuadrature/ObjectMethods/statusDescription.4dm": {
+		"startSelection": 9,
+		"endSelection": 0,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-07-22T07:49:43.615Z"
+	},
+	"Sources/Forms/qQuadrature/ObjectMethods/Column6.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-07-22T05:53:37.022Z"
+	},
+	"Sources/Forms/qQuadrature/ObjectMethods/eodDescription.4dm": {
+		"startSelection": 9,
+		"endSelection": 9,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 5,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-07-22T07:50:24.946Z"
+	},
+	"Sources/Methods/filterDatacollect.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 12,
+		"lastSelectedLine": 12,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-07-22T12:43:50.564Z"
+	},
+	"Sources/Forms/qTransazioni/ObjectMethods/Button5.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-07-22T14:58:00.750Z"
+	},
+	"Sources/Forms/qTransazioni/ObjectMethods/vpExportExcel.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-06-11T08:09:26.543Z"
+	},
+	"Sources/Methods/qCaricamentoDatacollect.4dm": {
+		"startSelection": 32,
+		"endSelection": 7,
+		"firstSelectedLine": 30,
+		"lastSelectedLine": 30,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-07-28T07:11:21.329Z"
+	},
+	"Sources/Forms/qCaricamentoDatacollect/method.4dm": {
+		"startSelection": 28,
+		"endSelection": 28,
+		"firstSelectedLine": 7,
+		"lastSelectedLine": 7,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-07-28T07:12:11.956Z"
+	},
+	"Sources/Forms/qCaricamentoDatacollect/ObjectMethods/statusDescription.4dm": {
+		"startSelection": 0,
+		"endSelection": 23,
+		"firstSelectedLine": 3,
+		"lastSelectedLine": 3,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-07-28T07:19:59.900Z"
+	},
+	"Sources/Forms/qCaricamentoDatacollect/ObjectMethods/lStatoQuadrature.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-07-23T07:34:25.390Z"
 	}
 }
