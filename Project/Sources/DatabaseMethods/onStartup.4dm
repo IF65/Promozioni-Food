@@ -164,6 +164,7 @@ APPEND TO ARRAY:C911(<>promoTipo; "DELC - DELIVERY PRIMI 9 COLLI")
 APPEND TO ARRAY:C911(<>promoTipo; "DELV - DELIVERY A VALORE CON SOGLIA")
 APPEND TO ARRAY:C911(<>promoTipo; "DELP - DELIVERY IN PERCENTUALE CON SOGLIA")
 APPEND TO ARRAY:C911(<>promoTipo; "EMBU - EMISSIONE BUONI (NON CATALINA)")
+APPEND TO ARRAY:C911(<>promoTipo; "PANI - VENDITA PANIERE")
 APPEND TO ARRAY:C911(<>promoTipo; "REBU - REDENZIONE BUONI (NON CATALINA)")
 APPEND TO ARRAY:C911(<>promoTipo; "REGN - REGALO NIMIS")
 APPEND TO ARRAY:C911(<>promoTipo; "0024 - CONVERSIONE PUNTI IN SCONTO")
@@ -189,6 +190,7 @@ APPEND TO ARRAY:C911(<>promoTipoCodice; "DELC")
 APPEND TO ARRAY:C911(<>promoTipoCodice; "DELV")
 APPEND TO ARRAY:C911(<>promoTipoCodice; "DELP")
 APPEND TO ARRAY:C911(<>promoTipoCodice; "EMBU")
+APPEND TO ARRAY:C911(<>promoTipoCodice; "PANI")
 APPEND TO ARRAY:C911(<>promoTipoCodice; "REBU")
 APPEND TO ARRAY:C911(<>promoTipoCodice; "REGN")
 APPEND TO ARRAY:C911(<>promoTipoCodice; "0024")
@@ -206,6 +208,12 @@ APPEND TO ARRAY:C911(<>promoTipoCodice; "0493")
 APPEND TO ARRAY:C911(<>promoTipoCodice; "0501")
 APPEND TO ARRAY:C911(<>promoTipoCodice; "0503")
 APPEND TO ARRAY:C911(<>promoTipoCodice; "0504")
+
+//promozioni descrizione
+C_OBJECT:C1216(<>promozioniDescrizione)
+For ($i; 3; Size of array:C274(<>promoTipoCodice))
+	OB SET:C1220(<>promozioniDescrizione; <>promoTipoCodice{$i}; <>promoTipo{$i})
+End for 
 
 WEB SET OPTION:C1210(Web HTTP compression level:K73:11; 9)
 
@@ -266,7 +274,8 @@ WEB SET OPTION:C1210(Web HTTP compression level:K73:11; 9)
 // per la versione compilata
 //$result:=AL_Register ("008173-OEM IF 65-MdK9yoNtO2Lfahu9hFma6DciL/MfZub2")  //Unlimited single user (1/10/2019)
 //$result:=AL_Register ("008962-OEM IF 65-fEdiTrzDharynPnNfOMPsFSifaQYvC56")  //Unlimited single user (1/10/2020)
-$result:=AL_Register("009704-OEM IF 65-l2t5mjnOod/JD22OAdP/Ph8y9WNqzjBJ")  //Unlimited single user (1/10/2021)
+//$result:=AL_Register("009704-OEM IF 65-l2t5mjnOod/JD22OAdP/Ph8y9WNqzjBJ")  //Unlimited single user (1/10/2021)
+$result:=AL_Register("010442-OEM IF 65-ZT1WhYAbTIVO6IrwnoPMDZDONhZIdK3j")  //Unlimited single user (1/10/2022)
 
 $versione:="IF65 S.p.A. Promozioni"
 HIDE TOOL BAR:C434

@@ -74,7 +74,7 @@ Case of
 		utlTermometro("mostra"; "Caricamento in corso...")
 		
 		$body:=JSON Stringify:C1217($request)
-		SET TEXT TO PASTEBOARD:C523($body)
+		//SET TEXT TO PASTEBOARD($body)
 		$sql:="/eDatacollect/src/eDatacollect.php"
 		C_TEXT:C284($response)
 		
@@ -120,7 +120,7 @@ Case of
 		OB SET:C1220($request; "data"; srcData)
 		
 		$body:=JSON Stringify:C1217($request)
-		SET TEXT TO PASTEBOARD:C523($body)
+		//SET TEXT TO PASTEBOARD($body)
 		$sql:="/eDatacollect/src/eDatacollect.php"
 		C_TEXT:C284($response)
 		

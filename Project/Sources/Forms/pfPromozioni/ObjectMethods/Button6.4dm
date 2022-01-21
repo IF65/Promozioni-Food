@@ -10,11 +10,13 @@ If (Size of array:C274($selezione)>0)
 	ARRAY TEXT:C222($id; 0)
 	ARRAY LONGINT:C221($codice; 0)
 	ARRAY TEXT:C222($tipo; 0)
+	ARRAY TEXT:C222($barcode; 0)
 	ARRAY BOOLEAN:C223($pmt; 0)
 	For ($i; 1; Size of array:C274($selezione))
 		APPEND TO ARRAY:C911($codice; arPR_codice{$selezione{$i}})
 		APPEND TO ARRAY:C911($id; arPR_id{$selezione{$i}})
 		APPEND TO ARRAY:C911($tipo; arPR_tipo{$selezione{$i}})
+		APPEND TO ARRAY:C911($barcode; arPR_barcode{$selezione{$i}})
 		APPEND TO ARRAY:C911($pmt; arPR_pmt{$selezione{$i}})
 	End for 
 	SORT ARRAY:C229($codice; $id; $tipo; >)
@@ -70,8 +72,13 @@ If (Size of array:C274($selezione)>0)
 				$nomeFile:="PROMO_DELV_"
 			: ($tipo{$i}="DELP")
 				$nomeFile:="PROMO_DELP_"
+			: ($tipo{$i}="PANI")
+				$nomeFile:=$barcode{$i}
 		End case 
-		$nomeFile:=$nomeFile+String:C10($codice{$i})
+		
+		If ($tipo{$i}#"PANI")
+			$nomeFile:=$nomeFile+String:C10($codice{$i})
+		End if 
 		
 		For ($j; 1; Size of array:C274($sedi))
 			
@@ -82,6 +89,10 @@ If (Size of array:C274($selezione)>0)
 			$gmrecFolder:=$currentFolder+"gmrec/"
 			If (Test path name:C476(Convert path POSIX to system:C1107($gmrecFolder))#Is a folder:K24:2)
 				CREATE FOLDER:C475(Convert path POSIX to system:C1107($gmrecFolder))
+			End if 
+			$panFolder:=$currentFolder+"pan/"
+			If (Test path name:C476(Convert path POSIX to system:C1107($panFolder))#Is a folder:K24:2)
+				CREATE FOLDER:C475(Convert path POSIX to system:C1107($panFolder))
 			End if 
 			
 			//invio file nella cartella di smistamento
@@ -96,6 +107,11 @@ If (Size of array:C274($selezione)>0)
 					$usedFolder:=$gmrecFolder
 					$usedExtension:=".PMT"
 				End if 
+				If ($tipo{$i}="PANI")
+					$usedFolder:=$panFolder
+					$usedExtension:=".SET"
+				End if 
+				
 				TEXT TO DOCUMENT:C1237(Convert path POSIX to system:C1107($usedFolder+$nomeFile+$usedExtension); $text; "ISO-8859-1"; Document with CRLF:K24:20)
 				If (<>error=0)
 					$fRef:=Create document:C266(Convert path POSIX to system:C1107($usedFolder+$nomeFile+".CTL"))

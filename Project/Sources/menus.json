@@ -79,9 +79,7 @@
 			"items": [
 				{
 					"title": "Elenco",
-					"method": "pfPromozioni",
-					"shortcutAccel": true,
-					"shortcutKey": "p"
+					"method": "pfPromozioni"
 				},
 				{
 					"title": "Item 1",

@@ -17,7 +17,7 @@
 			"destination": "detailScreen"
 		},
 		"setupStampante": {
-			"timeStamp": "2020-09-29T19:23:06.000Z",
+			"timeStamp": "2021-10-15T23:46:35.286Z",
 			"destination": "detailScreen"
 		},
 		"pfIncarichi": {
@@ -29,7 +29,7 @@
 			"destination": "detailScreen"
 		},
 		"pfPromozioniInserimento": {
-			"timeStamp": "2021-02-16T19:29:56.150Z",
+			"timeStamp": "2021-11-09T09:00:52.057Z",
 			"destination": "detailScreen"
 		},
 		"termometro": {
@@ -45,11 +45,11 @@
 			"destination": "detailScreen"
 		},
 		"pfPromozioni": {
-			"timeStamp": "2021-06-11T08:10:47.596Z",
+			"timeStamp": "2022-01-21T03:39:50.922Z",
 			"destination": "detailScreen"
 		},
 		"qCaricamentoDatacollect": {
-			"timeStamp": "2021-07-28T07:20:01.113Z",
+			"timeStamp": "2021-08-13T07:17:40.012Z",
 			"destination": "detailScreen"
 		},
 		"pfAderenti": {
@@ -58,6 +58,10 @@
 		},
 		"qReport": {
 			"timeStamp": "2021-07-25T05:39:12.319Z",
+			"destination": "detailScreen"
+		},
+		"pfTest": {
+			"timeStamp": "2022-01-21T07:34:26.969Z",
 			"destination": "detailScreen"
 		}
 	}

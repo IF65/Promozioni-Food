@@ -1,4 +1,4 @@
-﻿{
+{
 	"destination": "detailScreen",
 	"windowSizingX": "fixed",
 	"windowSizingY": "fixed",
@@ -146,7 +146,8 @@
 						"onLoad",
 						"onClick",
 						"onDataChange"
-					]
+					],
+					"focusable": false
 				},
 				"srcDataCorrente": {
 					"type": "input",
@@ -432,7 +433,8 @@
 					"method": "ObjectMethods/Button8.4dm",
 					"events": [
 						"onClick"
-					]
+					],
+					"text": ""
 				},
 				"Button9": {
 					"type": "button",
@@ -535,17 +537,6 @@
 					"events": [
 						"onClick"
 					]
-				},
-				"vpExportExcel": {
-					"type": "view",
-					"left": 1176,
-					"top": 7,
-					"width": 8,
-					"height": 5,
-					"userInterface": "none",
-					"withFormulaBar": false,
-					"visibility": "hidden",
-					"method": "ObjectMethods/vpExportExcel.4dm"
 				}
 			}
 		}
@@ -554,7 +545,7 @@
 		"version": "1",
 		"kind": "form"
 	},
-	"geometryStamp": 17,
+	"geometryStamp": 250,
 	"editor": {
 		"activeView": "View 1",
 		"defaultView": "View 1",

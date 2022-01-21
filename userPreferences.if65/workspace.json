@@ -2,14 +2,23 @@
 	"editors": [
 		{
 			"type": "method",
-			"id": 2147483619,
+			"id": 2147483541,
 			"codeDescriptor": {
-				"type": 1,
-				"methodName": "_marco6"
+				"type": 3,
+				"formName": "pfTest",
+				"methodPath": "/SOURCES/Forms/pfTest/method.4dm"
 			}
 		},
 		{
+			"type": "form",
+			"id": 233,
+			"formName": "pfTest"
+		},
+		{
 			"type": "explorer"
+		},
+		{
+			"type": "structure"
 		}
 	]
 }

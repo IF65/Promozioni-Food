@@ -1,4 +1,4 @@
-﻿{
+{
 	"destination": "detailScreen",
 	"windowSizingX": "fixed",
 	"windowSizingY": "fixed",
@@ -22,17 +22,17 @@
 			"objects": {
 				"Group Box": {
 					"type": "groupBox",
-					"top": 4,
+					"top": 8,
 					"left": 6,
 					"width": 313,
-					"height": 55,
+					"height": 43,
 					"class": "Supermedia_Campi_12",
 					"fontWeight": "bold",
-					"text": "Stampante Selezionata"
+					"text": ""
 				},
 				"bConfermaStampa": {
 					"type": "button",
-					"top": 66,
+					"top": 57,
 					"left": 6,
 					"width": 146,
 					"height": 22,
@@ -49,19 +49,20 @@
 				},
 				"arPrinterNames": {
 					"type": "dropdown",
-					"top": 28,
+					"top": 19,
 					"left": 13,
 					"width": 298,
-					"height": 18,
+					"height": 23,
 					"dataSource": "arPrinterNames",
 					"class": "Supermedia_Campi_12",
 					"events": [
 						"onClick"
-					]
+					],
+					"focusable": false
 				},
 				"Button1": {
 					"type": "button",
-					"top": 66,
+					"top": 57,
 					"left": 173,
 					"width": 146,
 					"height": 22,
@@ -77,5 +78,18 @@
 				}
 			}
 		}
-	]
+	],
+	"geometryStamp": 59,
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"editor": {
+		"activeView": "View 1",
+		"defaultView": "View 1",
+		"views": {
+			"View 1": {}
+		}
+	},
+	"method": "method.4dm"
 }

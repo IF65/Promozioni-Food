@@ -1,15 +1,15 @@
 {
 	"Sources/Methods/pfPromozioni.4dm": {
 		"left": 350,
-		"top": 103,
+		"top": 111,
 		"width": 1229,
-		"height": 937
+		"height": 931
 	},
 	"Sources/Methods/utlOnErrCall.4dm": {
 		"left": 0,
-		"top": 103,
+		"top": 111,
 		"width": 1680,
-		"height": 944
+		"height": 933
 	},
 	"Sources/Methods/utlGetDiskStruct.4dm": {
 		"left": 234,
@@ -42,8 +42,8 @@
 		"height": 794
 	},
 	"Sources/Methods/pfPromozioniInserimento.4dm": {
-		"left": 347,
-		"top": 234,
+		"left": 358,
+		"top": 194,
 		"width": 1275,
 		"height": 813
 	},
@@ -73,9 +73,9 @@
 	},
 	"Sources/Methods/utlCreaBarcodeCatalina.4dm": {
 		"left": 81,
-		"top": 103,
+		"top": 111,
 		"width": 1277,
-		"height": 954
+		"height": 932
 	},
 	"Trash/Methods/(utlCaricamentoCatalina).4dm": {
 		"left": 113,
@@ -261,7 +261,7 @@
 		"left": 806,
 		"top": 118,
 		"width": 1031,
-		"height": 937
+		"height": 932
 	},
 	"Sources/Methods/_marco.4dm": {
 		"left": 521,
@@ -271,15 +271,15 @@
 	},
 	"Sources/Methods/catalinaCaricamento_ACPT.4dm": {
 		"left": 773,
-		"top": 155,
+		"top": 115,
 		"width": 1147,
 		"height": 825
 	},
 	"Sources/Methods/utlOttieniBarcode8Catalina.4dm": {
 		"left": 123,
-		"top": 103,
+		"top": 111,
 		"width": 1277,
-		"height": 954
+		"height": 932
 	},
 	"Sources/Methods/utlCreaPmtDaTemplate.4dm": {
 		"left": 140,
@@ -315,7 +315,7 @@
 		"left": 119,
 		"top": 136,
 		"width": 1680,
-		"height": 944
+		"height": 932
 	},
 	"Sources/Methods/utlEsplosioneBarcode.4dm": {
 		"left": 651,
@@ -384,8 +384,8 @@
 		"height": 807
 	},
 	"Sources/Methods/_marco6.4dm": {
-		"left": 261,
-		"top": 240,
+		"left": 130,
+		"top": 499,
 		"width": 1471,
 		"height": 667
 	},
@@ -393,7 +393,7 @@
 		"left": 18,
 		"top": 118,
 		"width": 1520,
-		"height": 962
+		"height": 931
 	},
 	"Sources/DatabaseMethods/onWebConnection.4dm": {
 		"left": 81,
@@ -410,7 +410,7 @@
 	"Sources/Forms/pfPromozioni/method.4dm": {
 		"left": 308,
 		"top": 291,
-		"width": 1920,
+		"width": 1792,
 		"height": 932
 	},
 	"Sources/Forms/pfPromozioni/ObjectMethods/srcTipoPromozione.4dm": {
@@ -458,8 +458,8 @@
 	"Sources/Forms/pfPromozioni/ObjectMethods/alpPromozioni.4dm": {
 		"left": 208,
 		"top": 127,
-		"width": 1920,
-		"height": 932
+		"width": 1792,
+		"height": 931
 	},
 	"Sources/Forms/pfPromozioni/ObjectMethods/Button1.4dm": {
 		"left": 505,
@@ -480,8 +480,8 @@
 		"height": 597
 	},
 	"Sources/Forms/pfPromozioni/ObjectMethods/Button6.4dm": {
-		"left": 152,
-		"top": 103,
+		"left": 161,
+		"top": 111,
 		"width": 1628,
 		"height": 930
 	},
@@ -900,20 +900,20 @@
 		"height": 488
 	},
 	"Sources/Methods/_creazioneCatalina_0481.4dm": {
-		"left": 681,
-		"top": 130,
+		"left": 266,
+		"top": 131,
 		"width": 1273,
 		"height": 858
 	},
 	"Sources/Methods/_creazioneCatalina_0503.4dm": {
-		"left": 9,
-		"top": 110,
+		"left": 21,
+		"top": 161,
 		"width": 1411,
-		"height": 745
+		"height": 617
 	},
 	"Sources/Methods/_creazioneCatalina_ACPT.4dm": {
-		"left": 58,
-		"top": 199,
+		"left": 166,
+		"top": 111,
 		"width": 1411,
 		"height": 745
 	},
@@ -930,8 +930,8 @@
 		"height": 759
 	},
 	"Sources/Methods/_creazioneCatalina_0492.4dm": {
-		"left": 196,
-		"top": 173,
+		"left": 121,
+		"top": 247,
 		"width": 1411,
 		"height": 745
 	},
@@ -1038,8 +1038,8 @@
 		"height": 930
 	},
 	"Sources/Methods/vpGetDescrizioneArticolo.4dm": {
-		"left": 425,
-		"top": 281,
+		"left": 445,
+		"top": 330,
 		"width": 1341,
 		"height": 739
 	},
@@ -1051,7 +1051,7 @@
 	},
 	"Sources/Methods/pfEsportaSuExcel.4dm": {
 		"left": 495,
-		"top": 182,
+		"top": 185,
 		"width": 1179,
 		"height": 796
 	},
@@ -1183,9 +1183,9 @@
 	},
 	"Sources/Methods/mapEod.4dm": {
 		"left": 11,
-		"top": 110,
+		"top": 111,
 		"width": 1609,
-		"height": 936
+		"height": 931
 	},
 	"Sources/Forms/qQuadrature/ObjectMethods/List Box.4dm": {
 		"left": 18,
@@ -1351,9 +1351,9 @@
 	},
 	"Sources/Methods/qCaricamentoDatacollect.4dm": {
 		"left": 372,
-		"top": 103,
+		"top": 111,
 		"width": 1520,
-		"height": 962
+		"height": 931
 	},
 	"Sources/Forms/qCaricamentoDatacollect/method.4dm": {
 		"left": 372,
@@ -1369,8 +1369,122 @@
 	},
 	"Sources/Forms/qCaricamentoDatacollect/ObjectMethods/lStatoQuadrature.4dm": {
 		"left": 372,
-		"top": 103,
+		"top": 111,
 		"width": 1520,
-		"height": 962
+		"height": 931
+	},
+	"Sources/Methods/pfPromozioni1.4dm": {
+		"left": 372,
+		"top": 330,
+		"width": 1471,
+		"height": 667
+	},
+	"Sources/Forms/pfPromozioni1/method.4dm": {
+		"left": 372,
+		"top": 111,
+		"width": 1520,
+		"height": 931
+	},
+	"Sources/Forms/pfPromozioni1/ObjectMethods/srcTipoPromozione.4dm": {
+		"left": 381,
+		"top": 146,
+		"width": 1406,
+		"height": 865
+	},
+	"Sources/Forms/pfPromozioni1/ObjectMethods/Button1.4dm": {
+		"left": 381,
+		"top": 146,
+		"width": 1406,
+		"height": 865
+	},
+	"Sources/Methods/mapPromoTipo2Descrizione.4dm": {
+		"left": 372,
+		"top": 111,
+		"width": 1520,
+		"height": 931
+	},
+	"Sources/Methods/_fatture.4dm": {
+		"left": 157,
+		"top": 111,
+		"width": 1920,
+		"height": 859
+	},
+	"Sources/Classes/Promozione.4dm": {
+		"left": 491,
+		"top": 163,
+		"width": 1471,
+		"height": 667
+	},
+	"Sources/Forms/pfPromozioni1/ObjectMethods/lPromozioni.4dm": {
+		"left": 491,
+		"top": 163,
+		"width": 1471,
+		"height": 667
+	},
+	"Sources/Methods/pfPromozioniInserimento1.4dm": {
+		"left": 350,
+		"top": 111,
+		"width": 1229,
+		"height": 931
+	},
+	"Sources/Forms/pfPromozioniInserimento1/method.4dm": {
+		"left": 350,
+		"top": 111,
+		"width": 1229,
+		"height": 931
+	},
+	"Sources/Forms/pfPromozioniInserimento1/ObjectMethods/vPR_bozza.4dm": {
+		"left": 350,
+		"top": 111,
+		"width": 1229,
+		"height": 931
+	},
+	"Sources/Forms/pfPromozioniInserimento1/ObjectMethods/ricompense01.4dm": {
+		"left": 350,
+		"top": 111,
+		"width": 1229,
+		"height": 931
+	},
+	"Sources/Forms/pfPromozioniInserimento1/ObjectMethods/bozza.4dm": {
+		"left": 350,
+		"top": 111,
+		"width": 1229,
+		"height": 931
+	},
+	"Sources/Forms/pfPromozioni1/ObjectMethods/Button9.4dm": {
+		"left": 333,
+		"top": 125,
+		"width": 1731,
+		"height": 916
+	},
+	"Sources/Forms/setupStampante/method.4dm": {
+		"left": 333,
+		"top": 125,
+		"width": 1731,
+		"height": 916
+	},
+	"Sources/Methods/_creazioneSet0055.4dm": {
+		"left": 266,
+		"top": 131,
+		"width": 1273,
+		"height": 858
+	},
+	"Sources/Forms/pfPromozioniInserimento1/ObjectMethods/Button.4dm": {
+		"left": 571,
+		"top": 266,
+		"width": 778,
+		"height": 488
+	},
+	"Sources/Forms/pfTest/method.4dm": {
+		"left": 542,
+		"top": 252,
+		"width": 1329,
+		"height": 822
+	},
+	"Sources/Forms/pfTest/ObjectMethods/vpArea.4dm": {
+		"left": 542,
+		"top": 252,
+		"width": 1329,
+		"height": 822
 	}
 }

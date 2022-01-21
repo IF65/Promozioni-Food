@@ -142,7 +142,7 @@ If (Size of array:C274($selezione)>0)
 				vFtpMessage:="invio in corso..."
 				
 				//$err:=FTP_Login ("10.11.175.237";"italfrutta";"scrivi";vFtpId;vFtpMessage)
-				$err:=FTP_Login("10.11.175.237"; "manager"; "manager"; vFtpId; vFtpMessage)
+				$err:=FTP_Login("10.11.175.237"; "italfrutta"; "scrivi"; vFtpId; vFtpMessage)
 				If ($err=0)
 					
 					$err:=FTP_ChangeDir(ftp_ID; "/server/arsmntapply")

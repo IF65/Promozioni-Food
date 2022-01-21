@@ -13,6 +13,16 @@
 // Parameters
 // ----------------------------------------------------
 
+APPEND TO ARRAY:C911($arCodiceCatalina; 0)
+APPEND TO ARRAY:C911($arDescrizione; "LATTICINI")
+APPEND TO ARRAY:C911($arSoglia; 6)
+APPEND TO ARRAY:C911($arImporto; 1.5)
+APPEND TO ARRAY:C911($arInizio; !2021-11-01!)
+APPEND TO ARRAY:C911($arFine; !2021-11-14!)
+APPEND TO ARRAY:C911($arBarcode; "")
+APPEND TO ARRAY:C911($arCodiceArticolo; "")
+APPEND TO ARRAY:C911($arTipo; "0481")
+
 C_BOOLEAN:C305($0)
 
 C_LONGINT:C283($1)

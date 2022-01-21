@@ -7,7 +7,7 @@
 			"timeStamp": "2021-07-15T08:50:06.030Z"
 		},
 		"_creazioneCatalina_0481": {
-			"timeStamp": "2021-02-18T11:16:26.235Z"
+			"timeStamp": "2021-09-20T11:51:01.440Z"
 		},
 		"caricamentoPromoLibri": {
 			"timeStamp": "2021-07-15T08:49:13.763Z"
@@ -19,10 +19,13 @@
 			"timeStamp": "2021-04-14T15:47:28.138Z"
 		},
 		"_creazioneCatalina_ACPT": {
-			"timeStamp": "2021-05-23T22:58:10.442Z"
+			"timeStamp": "2021-09-10T09:21:58.889Z"
 		},
 		"utlPlugInRegistration": {
 			"timeStamp": "2020-09-29T19:23:06.000Z"
+		},
+		"_creazioneSet0055": {
+			"timeStamp": "2021-11-30T16:01:14.036Z"
 		},
 		"Method87": {
 			"timeStamp": "2021-07-21T06:04:19.814Z"
@@ -31,7 +34,7 @@
 			"timeStamp": "2020-09-29T19:23:06.000Z"
 		},
 		"_creazioneCatalina_0492": {
-			"timeStamp": "2021-05-23T23:12:08.237Z"
+			"timeStamp": "2021-08-17T14:14:53.838Z"
 		},
 		"pfEntryEnd": {
 			"timeStamp": "2020-09-29T19:23:06.000Z"
@@ -61,13 +64,13 @@
 			"timeStamp": "2020-09-29T19:23:06.000Z"
 		},
 		"catalinaCaricamento_0481": {
-			"timeStamp": "2021-05-14T11:30:25.518Z"
+			"timeStamp": "2021-09-10T14:31:45.929Z"
 		},
 		"utlQuit": {
 			"timeStamp": "2020-09-29T19:23:06.000Z"
 		},
 		"utlPromozioniIF652Excel": {
-			"timeStamp": "2020-09-30T13:10:45.000Z"
+			"timeStamp": "2021-12-02T15:22:27.919Z"
 		},
 		"pfTemplate": {
 			"timeStamp": "2020-09-29T19:23:06.000Z"
@@ -82,16 +85,16 @@
 			"timeStamp": "2021-01-11T08:11:52.998Z"
 		},
 		"_marco": {
-			"timeStamp": "2021-07-22T05:42:24.005Z"
+			"timeStamp": "2021-11-09T09:01:54.886Z"
 		},
 		"_marco4": {
 			"timeStamp": "2021-02-10T06:09:39.127Z"
 		},
 		"_marco6": {
-			"timeStamp": "2021-07-28T12:48:11.206Z"
+			"timeStamp": "2021-09-20T06:51:56.238Z"
 		},
 		"_marco7": {
-			"timeStamp": "2021-07-21T14:01:43.334Z"
+			"timeStamp": "2022-01-20T13:58:01.439Z"
 		},
 		"utlElencoAderenti": {
 			"timeStamp": "2020-09-29T19:23:06.000Z"
@@ -115,37 +118,40 @@
 			"timeStamp": "2020-10-23T12:56:12.000Z"
 		},
 		"pfCreazioneFile": {
-			"timeStamp": "2020-09-29T19:23:06.000Z"
+			"timeStamp": "2021-12-02T16:06:40.392Z"
 		},
 		"utlElencoPromozioni": {
-			"timeStamp": "2020-09-29T19:23:06.000Z"
+			"timeStamp": "2021-12-02T15:22:07.273Z"
 		},
 		"utlOttieniBarcode8Catalina": {
 			"timeStamp": "2020-09-29T19:23:06.000Z"
+		},
+		"pfPromozioniInserimento1": {
+			"timeStamp": "2021-10-10T14:21:49.949Z"
 		},
 		"pfPromozioni": {
 			"timeStamp": "2020-11-11T10:21:31.000Z"
 		},
 		"setupStampante": {
-			"timeStamp": "2020-09-29T19:23:06.000Z"
+			"timeStamp": "2021-10-15T23:43:58.972Z"
 		},
 		"utlGetDiskStruct": {
 			"timeStamp": "2020-09-29T19:23:06.000Z"
 		},
 		"utlElencoSediUsate": {
-			"timeStamp": "2020-11-15T07:11:19.000Z"
+			"timeStamp": "2021-12-02T15:22:12.830Z"
 		},
 		"vpGetDescrizioneArticolo": {
 			"timeStamp": "2021-05-27T08:47:01.918Z"
 		},
 		"utlEsplosioneBarcode": {
-			"timeStamp": "2020-09-29T19:23:06.000Z"
+			"timeStamp": "2021-12-02T15:22:19.479Z"
 		},
 		"utlElencoCodiciCatalinaUsati": {
 			"timeStamp": "2020-09-29T19:23:06.000Z"
 		},
 		"pfPromozioniInserimento": {
-			"timeStamp": "2020-11-07T09:05:03.000Z"
+			"timeStamp": "2021-12-02T16:33:49.962Z"
 		},
 		"utlAlpAreaFormatColumn": {
 			"timeStamp": "2020-09-29T19:23:06.000Z"
@@ -160,10 +166,10 @@
 			"timeStamp": "2021-05-13T08:01:43.439Z"
 		},
 		"utlInvioLaboratorio": {
-			"timeStamp": "2021-07-02T14:14:12.704Z"
+			"timeStamp": "2021-08-13T13:55:06.719Z"
 		},
 		"templateCaricamento_0054": {
-			"timeStamp": "2021-06-14T20:14:13.560Z"
+			"timeStamp": "2021-11-30T16:01:14.029Z"
 		},
 		"utlCreaPmtDeliveryDaTemplate": {
 			"timeStamp": "2021-07-15T12:38:39.237Z"
@@ -174,8 +180,11 @@
 		"pfCreazioneFileLocal": {
 			"timeStamp": "2020-09-29T19:23:06.000Z"
 		},
+		"pfPromozioni1": {
+			"timeStamp": "2021-10-16T00:11:38.873Z"
+		},
 		"pfIncarichi": {
-			"timeStamp": "2020-11-15T21:08:52.000Z"
+			"timeStamp": "2021-12-02T15:21:03.919Z"
 		},
 		"pfSceltaSedi": {
 			"timeStamp": "2020-09-29T19:23:06.000Z"
@@ -184,7 +193,7 @@
 			"timeStamp": "2020-09-29T19:23:06.000Z"
 		},
 		"pfEsportaSuExcel": {
-			"timeStamp": "2021-06-11T08:15:50.864Z"
+			"timeStamp": "2022-01-21T03:35:57.049Z"
 		},
 		"mapStatus": {
 			"timeStamp": "2021-07-22T04:01:52.606Z"
@@ -193,10 +202,10 @@
 			"timeStamp": "2020-09-29T19:23:06.000Z"
 		},
 		"_creazioneCatalina_0503": {
-			"timeStamp": "2021-05-23T22:37:38.947Z"
+			"timeStamp": "2021-11-09T09:52:20.497Z"
 		},
 		"qCaricamentoDatacollect": {
-			"timeStamp": "2021-07-28T07:11:21.329Z"
+			"timeStamp": "2021-12-02T15:21:39.187Z"
 		},
 		"qDettagli": {
 			"timeStamp": "2021-04-15T14:03:18.296Z"
@@ -209,6 +218,12 @@
 		},
 		"pfEntryStart": {
 			"timeStamp": "2020-09-29T19:23:06.000Z"
+		},
+		"mapPromoTipo2Descrizione": {
+			"timeStamp": "2021-08-14T08:14:19.545Z"
+		},
+		"_fatture": {
+			"timeStamp": "2021-08-16T15:51:29.328Z"
 		},
 		"utlProgressivoSalvaCodiceEsiste": {
 			"timeStamp": "2020-09-29T19:23:06.000Z"
@@ -244,7 +259,7 @@
 			"timeStamp": "2020-09-29T19:23:06.000Z"
 		},
 		"qTransazioni": {
-			"timeStamp": "2021-07-22T15:07:30.124Z"
+			"timeStamp": "2021-12-02T15:21:50.400Z"
 		}
 	}
 }

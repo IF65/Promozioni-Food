@@ -1,20 +1,6 @@
 [
 	{
-		"line": 444,
-		"method": {
-			"type": 1,
-			"methodName": "_creazioneCatalina_0481"
-		}
-	},
-	{
-		"line": 93,
-		"method": {
-			"type": 1,
-			"methodName": "_creazioneCatalina_0503"
-		}
-	},
-	{
-		"line": 77,
+		"line": 85,
 		"method": {
 			"type": 1,
 			"methodName": "_creazioneCatalina_0492"
@@ -27,20 +13,6 @@
 			"formName": "pfCatalina",
 			"objectName": "Button8",
 			"methodPath": "/SOURCES/Forms/pfCatalina/ObjectMethods/Button8.4dm"
-		}
-	},
-	{
-		"line": 86,
-		"method": {
-			"type": 1,
-			"methodName": "_creazioneCatalina_ACPT"
-		}
-	},
-	{
-		"line": 17,
-		"method": {
-			"type": 1,
-			"methodName": "vpGetDescrizioneArticolo"
 		}
 	},
 	{
@@ -58,28 +30,7 @@
 		}
 	},
 	{
-		"line": 94,
-		"method": {
-			"type": 1,
-			"methodName": "pfEsportaSuExcel"
-		}
-	},
-	{
-		"line": 9,
-		"method": {
-			"type": 1,
-			"methodName": "pfEsportaSuExcel"
-		}
-	},
-	{
-		"line": 92,
-		"method": {
-			"type": 1,
-			"methodName": "pfEsportaSuExcel"
-		}
-	},
-	{
-		"line": 26,
+		"line": 95,
 		"method": {
 			"type": 1,
 			"methodName": "_marco6"
@@ -90,6 +41,48 @@
 		"method": {
 			"type": 1,
 			"methodName": "_marco5"
+		}
+	},
+	{
+		"line": 571,
+		"method": {
+			"type": 1,
+			"methodName": "_creazioneCatalina_ACPT"
+		}
+	},
+	{
+		"line": 577,
+		"method": {
+			"type": 1,
+			"methodName": "_creazioneCatalina_ACPT"
+		}
+	},
+	{
+		"line": 410,
+		"method": {
+			"type": 1,
+			"methodName": "_creazioneCatalina_0481"
+		}
+	},
+	{
+		"line": 1,
+		"method": {
+			"type": 1,
+			"methodName": "_marco"
+		}
+	},
+	{
+		"line": 109,
+		"method": {
+			"type": 1,
+			"methodName": "_creazioneCatalina_0503"
+		}
+	},
+	{
+		"line": 104,
+		"method": {
+			"type": 1,
+			"methodName": "_creazioneCatalina_0503"
 		}
 	}
 ]
