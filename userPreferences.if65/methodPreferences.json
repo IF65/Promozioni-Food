@@ -625,13 +625,13 @@
 		"stamp": "2020-09-29T19:23:06.000Z"
 	},
 	"Sources/Forms/pfPromozioni/ObjectMethods/Button8.4dm": {
-		"startSelection": 0,
-		"endSelection": 0,
-		"firstSelectedLine": 0,
-		"lastSelectedLine": 0,
+		"startSelection": 7,
+		"endSelection": 7,
+		"firstSelectedLine": 6,
+		"lastSelectedLine": 6,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2022-01-21T03:39:32.358Z"
+		"stamp": "2022-01-26T11:11:55.851Z"
 	},
 	"Sources/Forms/pfPromozioni/ObjectMethods/Button9.4dm": {
 		"startSelection": 40,

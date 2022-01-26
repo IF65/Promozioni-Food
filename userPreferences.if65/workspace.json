@@ -1,3 +1,22 @@
 {
-	"editors": []
+	"editors": [
+		{
+			"type": "method",
+			"id": 2147483546,
+			"codeDescriptor": {
+				"type": 2,
+				"formName": "pfPromozioni",
+				"objectName": "Button8",
+				"methodPath": "/SOURCES/Forms/pfPromozioni/ObjectMethods/Button8.4dm"
+			}
+		},
+		{
+			"type": "form",
+			"id": 229,
+			"formName": "pfPromozioni"
+		},
+		{
+			"type": "explorer"
+		}
+	]
 }
