@@ -1,0 +1,7 @@
+<svg width="17px" height="16px" viewBox="0 0 17 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rahmen-dunkel" fill="#606060" x="0" y="0" width="17" height="16"></rect>
+        <line x1="16.9967226" y1="15.7360201" x2="0.00327742445" y2="15.2639799" id="Line-2" stroke="#F0F0F0" transform="translate(8.500000, 15.500000) rotate(178.408860) translate(-8.500000, -15.500000) "></line>
+        <polygon id="Pfeil" stroke="#FFFFFF" stroke-width="1.5" fill-rule="nonzero" transform="translate(8.265588, 7.500000) rotate(90.000000) translate(-8.265588, -7.500000) " points="11.2655882 8.44147059 8.26558824 5.73441176 5.26558824 8.44147059 5.26558824 9.26558824 8.26558824 6.55764706 11.2655882 9.26558824"></polygon>
+    </g>
+</svg>

@@ -1,0 +1,7 @@
+<svg width="16px" height="17px" viewBox="0 0 16 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rahmen-dunkel" fill="#606060" x="0" y="0" width="16" height="17"></rect>
+        <line x1="15.5" y1="0" x2="15.5" y2="17" id="Line-2" stroke="#F0F0F0"></line>
+        <polygon id="Pfeil" stroke="#FFFFFF" stroke-width="1.5" fill="#606060" fill-rule="nonzero" points="10.0974513 9.29985007 7.54872564 7 5 9.29985007 5 10 7.54872564 7.6994003 10.0974513 10"></polygon>
+    </g>
+</svg>

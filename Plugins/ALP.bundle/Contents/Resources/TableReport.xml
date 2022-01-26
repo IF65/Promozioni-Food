@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<Report version="3.2" name="ALP" pageWidth="595" pageHeight="842" pageMarginLeft="12.5" pageMarginTop="12.5" pageMarginRight="12.5" pageMarginBottom="12.5" countPages="1">
+	<DataSource type="4D" source="2" iterations="1"/>
+	<StyleSet>
+		<Style id="0" name="Default" font="Helvetica" size="8" wrap="1" lineSpacing="1"/>
+		<Style id="1" name="Headers" font="Helvetica" size="8" qdStyle="1" wrap="1" lineSpacing="1"/>
+		<Style id="2" name="Columns" font="Helvetica" size="8" wrap="1" lineSpacing="1"/>
+		<Style id="3" name="Footers" font="Helvetica" size="8" qdStyle="1" wrap="1" lineSpacing="1"/>
+	</StyleSet>
+	<Header name="Header" height="40" labelPos="575">
+		<Text name="Title" width="570" height="22" align="2" style="0" size="14" baseLineShift="3" varSizeH="1" varSizeV="1" empty="1">Title</Text>
+	</Header>
+	<Body name="Body" height="40" labelPos="575">
+		<Table width="571" height="40" align="2">
+			<Head rows="1">
+				<tr>
+					<td style="1"/>
+				</tr>
+			</Head>
+			<Columns>
+				<Col style="2"/>
+			</Columns>
+			<Footer rows="1" draw="1">
+				<tr>
+					<td style="3"/>
+				</tr>
+			</Footer>
+		</Table>
+	</Body>
+	<Footer name="Footer" height="13" fixedHeight="1" labelPos="575">
+		<Var top="3" width="200" height="10" align="1" style="0" varSizeV="1" source="SRDate"/>
+		<Text left="470" top="3" width="100" height="10" align="3" style="0" varSizeH="1" varSizeV="1" dynamic="1">&lt;%SRPage%&gt;/&lt;%SRPages%&gt;</Text>
+	</Footer>
+</Report>

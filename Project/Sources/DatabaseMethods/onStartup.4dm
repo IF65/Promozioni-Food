@@ -275,7 +275,8 @@ WEB SET OPTION:C1210(Web HTTP compression level:K73:11; 9)
 //$result:=AL_Register ("008173-OEM IF 65-MdK9yoNtO2Lfahu9hFma6DciL/MfZub2")  //Unlimited single user (1/10/2019)
 //$result:=AL_Register ("008962-OEM IF 65-fEdiTrzDharynPnNfOMPsFSifaQYvC56")  //Unlimited single user (1/10/2020)
 //$result:=AL_Register("009704-OEM IF 65-l2t5mjnOod/JD22OAdP/Ph8y9WNqzjBJ")  //Unlimited single user (1/10/2021)
-$result:=AL_Register("010442-OEM IF 65-ZT1WhYAbTIVO6IrwnoPMDZDONhZIdK3j")  //Unlimited single user (1/10/2022)
+//$result:=AL_Register("010442-OEM IF 65-ZT1WhYAbTIVO6IrwnoPMDZDONhZIdK3j")  //Unlimited single user (1/10/2022)
+$result:=AL_Register("010443-OEM IF 65-cwsqsdkgd7n8LzAa2yTNtS4F/M/wlwm3")  //Unlimited single user (1/10/2022 v11)
 
 $versione:="IF65 S.p.A. Promozioni"
 HIDE TOOL BAR:C434

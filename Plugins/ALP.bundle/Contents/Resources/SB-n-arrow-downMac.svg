@@ -1,0 +1,6 @@
+<svg width="16px" height="17px" viewBox="0 0 16 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rahmen-grau" fill="#EFEFEF" x="0" y="0" width="16" height="17"></rect>
+        <polygon id="Pfeil" stroke="#606060" stroke-width="1.5" fill="#606060" fill-rule="nonzero" transform="translate(7.500000, 8.548726) scale(1, -1) translate(-7.500000, -8.548726) " points="10.0487256 9.34857571 7.5 7.04872564 4.95127436 9.34857571 4.95127436 10.0487256 7.5 7.74812594 10.0487256 10.0487256"></polygon>
+    </g>
+</svg>
