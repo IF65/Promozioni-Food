@@ -1,0 +1,196 @@
+//%attributes = {}
+ARRAY TEXT:C222($arSede; 0)
+ARRAY TEXT:C222($arPromovar; 0)
+ARRAY TEXT:C222($arTipo; 0)
+
+APPEND TO ARRAY:C911($arSede; "0102")
+APPEND TO ARRAY:C911($arPromovar; "300922")
+APPEND TO ARRAY:C911($arTipo; "RP")
+
+APPEND TO ARRAY:C911($arSede; "0102")
+APPEND TO ARRAY:C911($arPromovar; "300923")
+APPEND TO ARRAY:C911($arTipo; "BP")
+
+APPEND TO ARRAY:C911($arSede; "0106")
+APPEND TO ARRAY:C911($arPromovar; "300926")
+APPEND TO ARRAY:C911($arTipo; "RP")
+
+APPEND TO ARRAY:C911($arSede; "0106")
+APPEND TO ARRAY:C911($arPromovar; "300927")
+APPEND TO ARRAY:C911($arTipo; "BP")
+
+APPEND TO ARRAY:C911($arSede; "0107")
+APPEND TO ARRAY:C911($arPromovar; "300930")
+APPEND TO ARRAY:C911($arTipo; "RP")
+
+APPEND TO ARRAY:C911($arSede; "0107")
+APPEND TO ARRAY:C911($arPromovar; "300931")
+APPEND TO ARRAY:C911($arTipo; "BP")
+
+APPEND TO ARRAY:C911($arSede; "0115")
+APPEND TO ARRAY:C911($arPromovar; "300934")
+APPEND TO ARRAY:C911($arTipo; "RP")
+
+APPEND TO ARRAY:C911($arSede; "0115")
+APPEND TO ARRAY:C911($arPromovar; "300935")
+APPEND TO ARRAY:C911($arTipo; "BP")
+
+APPEND TO ARRAY:C911($arSede; "0121")
+APPEND TO ARRAY:C911($arPromovar; "300938")
+APPEND TO ARRAY:C911($arTipo; "RP")
+
+APPEND TO ARRAY:C911($arSede; "0121")
+APPEND TO ARRAY:C911($arPromovar; "300939")
+APPEND TO ARRAY:C911($arTipo; "BP")
+
+APPEND TO ARRAY:C911($arSede; "0124")
+APPEND TO ARRAY:C911($arPromovar; "300942")
+APPEND TO ARRAY:C911($arTipo; "RP")
+
+APPEND TO ARRAY:C911($arSede; "0124")
+APPEND TO ARRAY:C911($arPromovar; "300943")
+APPEND TO ARRAY:C911($arTipo; "BP")
+
+APPEND TO ARRAY:C911($arSede; "0126")
+APPEND TO ARRAY:C911($arPromovar; "300946")
+APPEND TO ARRAY:C911($arTipo; "RP")
+
+APPEND TO ARRAY:C911($arSede; "0126")
+APPEND TO ARRAY:C911($arPromovar; "300947")
+APPEND TO ARRAY:C911($arTipo; "BP")
+
+APPEND TO ARRAY:C911($arSede; "0131")
+APPEND TO ARRAY:C911($arPromovar; "300950")
+APPEND TO ARRAY:C911($arTipo; "RP")
+
+APPEND TO ARRAY:C911($arSede; "0131")
+APPEND TO ARRAY:C911($arPromovar; "300951")
+APPEND TO ARRAY:C911($arTipo; "BP")
+
+APPEND TO ARRAY:C911($arSede; "0136")
+APPEND TO ARRAY:C911($arPromovar; "300954")
+APPEND TO ARRAY:C911($arTipo; "RP")
+
+APPEND TO ARRAY:C911($arSede; "0136")
+APPEND TO ARRAY:C911($arPromovar; "300955")
+APPEND TO ARRAY:C911($arTipo; "BP")
+
+APPEND TO ARRAY:C911($arSede; "0139")
+APPEND TO ARRAY:C911($arPromovar; "300958")
+APPEND TO ARRAY:C911($arTipo; "RP")
+
+APPEND TO ARRAY:C911($arSede; "0139")
+APPEND TO ARRAY:C911($arPromovar; "300959")
+APPEND TO ARRAY:C911($arTipo; "BP")
+
+APPEND TO ARRAY:C911($arSede; "0140")
+APPEND TO ARRAY:C911($arPromovar; "300962")
+APPEND TO ARRAY:C911($arTipo; "RP")
+
+APPEND TO ARRAY:C911($arSede; "0140")
+APPEND TO ARRAY:C911($arPromovar; "300963")
+APPEND TO ARRAY:C911($arTipo; "BP")
+
+APPEND TO ARRAY:C911($arSede; "0142")
+APPEND TO ARRAY:C911($arPromovar; "300966")
+APPEND TO ARRAY:C911($arTipo; "RP")
+
+APPEND TO ARRAY:C911($arSede; "0142")
+APPEND TO ARRAY:C911($arPromovar; "300967")
+APPEND TO ARRAY:C911($arTipo; "BP")
+
+APPEND TO ARRAY:C911($arSede; "0149")
+APPEND TO ARRAY:C911($arPromovar; "300970")
+APPEND TO ARRAY:C911($arTipo; "RP")
+
+APPEND TO ARRAY:C911($arSede; "0149")
+APPEND TO ARRAY:C911($arPromovar; "300971")
+APPEND TO ARRAY:C911($arTipo; "BP")
+
+APPEND TO ARRAY:C911($arSede; "0155")
+APPEND TO ARRAY:C911($arPromovar; "300974")
+APPEND TO ARRAY:C911($arTipo; "RP")
+
+APPEND TO ARRAY:C911($arSede; "0155")
+APPEND TO ARRAY:C911($arPromovar; "300975")
+APPEND TO ARRAY:C911($arTipo; "BP")
+
+APPEND TO ARRAY:C911($arSede; "0171")
+APPEND TO ARRAY:C911($arPromovar; "300978")
+APPEND TO ARRAY:C911($arTipo; "RP")
+
+APPEND TO ARRAY:C911($arSede; "0171")
+APPEND TO ARRAY:C911($arPromovar; "300979")
+APPEND TO ARRAY:C911($arTipo; "BP")
+
+APPEND TO ARRAY:C911($arSede; "0181")
+APPEND TO ARRAY:C911($arPromovar; "300982")
+APPEND TO ARRAY:C911($arTipo; "RP")
+
+APPEND TO ARRAY:C911($arSede; "0181")
+APPEND TO ARRAY:C911($arPromovar; "300983")
+APPEND TO ARRAY:C911($arTipo; "BP")
+
+APPEND TO ARRAY:C911($arSede; "0186")
+APPEND TO ARRAY:C911($arPromovar; "300986")
+APPEND TO ARRAY:C911($arTipo; "RP")
+
+APPEND TO ARRAY:C911($arSede; "0186")
+APPEND TO ARRAY:C911($arPromovar; "300987")
+APPEND TO ARRAY:C911($arTipo; "BP")
+
+APPEND TO ARRAY:C911($arSede; "3670")
+APPEND TO ARRAY:C911($arPromovar; "300990")
+APPEND TO ARRAY:C911($arTipo; "RP")
+
+APPEND TO ARRAY:C911($arSede; "3670")
+APPEND TO ARRAY:C911($arPromovar; "300991")
+APPEND TO ARRAY:C911($arTipo; "BP")
+
+APPEND TO ARRAY:C911($arSede; "3675")
+APPEND TO ARRAY:C911($arPromovar; "300994")
+APPEND TO ARRAY:C911($arTipo; "RP")
+
+APPEND TO ARRAY:C911($arSede; "3675")
+APPEND TO ARRAY:C911($arPromovar; "300995")
+APPEND TO ARRAY:C911($arTipo; "BP")
+
+APPEND TO ARRAY:C911($arSede; "3682")
+APPEND TO ARRAY:C911($arPromovar; "300998")
+APPEND TO ARRAY:C911($arTipo; "RP")
+
+APPEND TO ARRAY:C911($arSede; "3682")
+APPEND TO ARRAY:C911($arPromovar; "300999")
+APPEND TO ARRAY:C911($arTipo; "BP")
+
+APPEND TO ARRAY:C911($arSede; "0134")
+APPEND TO ARRAY:C911($arPromovar; "301002")
+APPEND TO ARRAY:C911($arTipo; "RP")
+
+APPEND TO ARRAY:C911($arSede; "0134")
+APPEND TO ARRAY:C911($arPromovar; "301003")
+APPEND TO ARRAY:C911($arTipo; "BP")
+
+ARRAY TEXT:C222($arSediSelezionate; 0)
+For ($i; 1; Size of array:C274($arSede))
+	If (Find in array:C230($arSediSelezionate; $arSede{$i})<0)
+		APPEND TO ARRAY:C911($arSediSelezionate; $arSede{$i})
+	End if 
+End for 
+
+For ($i; 1; Size of array:C274($arSediSelezionate))
+	$promovarBp:=""
+	$promovarRp:=""
+	For ($j; 1; Size of array:C274($arSede))
+		If ($arSede{$j}=$arSediSelezionate{$i}) & ($arTipo{$j}="BP")
+			$promovarBp:=$arPromovar{$j}
+		End if 
+		If ($arSede{$j}=$arSediSelezionate{$i}) & ($arTipo{$j}="RP")
+			$promovarRp:=$arPromovar{$j}
+		End if 
+	End for 
+	
+	If ($promovarBp#"") & ($promovarRp#"")
+		_scValTrx_0503_Pmt_Creazione($arSediSelezionate{$i}; $promovarBp; $promovarRp)
+	End if 
+End for 

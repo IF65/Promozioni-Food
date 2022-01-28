@@ -86,10 +86,10 @@ Case of
 				OBJECT SET VISIBLE:C603(*; "articoli@"; False:C215)
 				
 				OBJECT GET COORDINATES:C663(*; "ricompense02"; $left; $top; $right; $bottom)
-				If ($left<=500)
-					OBJECT MOVE:C664(*; "ricompense01"; 0; 0; 372; 0)
-					OBJECT MOVE:C664(*; "ricompense02"; 372; 0)
-					OBJECT MOVE:C664(*; "ricompense03"; 372; 0)
+				If ($left<=600)
+					OBJECT MOVE:C664(*; "ricompense01"; 0; 0; 472; 0)
+					OBJECT MOVE:C664(*; "ricompense02"; 472; 0)
+					OBJECT MOVE:C664(*; "ricompense03"; 472; 0)
 				End if 
 				
 				AL_SetColumnLongProperty(alpRicompense; 3; ALP_Column_Visible; 0; 1)
@@ -121,10 +121,10 @@ Case of
 				OBJECT SET VISIBLE:C603(*; "articoli@"; False:C215)
 				
 				OBJECT GET COORDINATES:C663(*; "ricompense02"; $left; $top; $right; $bottom)
-				If ($left<=500)
-					OBJECT MOVE:C664(*; "ricompense01"; 0; 0; 372; 0)
-					OBJECT MOVE:C664(*; "ricompense02"; 372; 0)
-					OBJECT MOVE:C664(*; "ricompense03"; 372; 0)
+				If ($left<=600)
+					OBJECT MOVE:C664(*; "ricompense01"; 0; 0; 472; 0)
+					OBJECT MOVE:C664(*; "ricompense02"; 472; 0)
+					OBJECT MOVE:C664(*; "ricompense03"; 472; 0)
 				End if 
 				
 				AL_SetColumnLongProperty(alpRicompense; 3; ALP_Column_Visible; 1; 1)
@@ -140,10 +140,10 @@ Case of
 			Else 
 				OBJECT SET VISIBLE:C603(*; "articoli@"; True:C214)
 				OBJECT GET COORDINATES:C663(*; "ricompense02"; $left; $top; $right; $bottom)
-				If ($left>500)
-					OBJECT MOVE:C664(*; "ricompense01"; 0; 0; -372; 0)
-					OBJECT MOVE:C664(*; "ricompense02"; -372; 0)
-					OBJECT MOVE:C664(*; "ricompense03"; -372; 0)
+				If ($left>600)
+					OBJECT MOVE:C664(*; "ricompense01"; 0; 0; -472; 0)
+					OBJECT MOVE:C664(*; "ricompense02"; -472; 0)
+					OBJECT MOVE:C664(*; "ricompense03"; -472; 0)
 				End if 
 				AL_SetColumnLongProperty(alpRicompense; 3; ALP_Column_Visible; 0; 1)
 				AL_SetColumnLongProperty(alpRicompense; 5; ALP_Column_Visible; 1; 1)
@@ -248,6 +248,7 @@ Case of
 		C_BOOLEAN:C305(vPR_pmt)
 		C_TEXT:C284(vPR_barcode)
 		C_TEXT:C284(vPR_testo)
+		C_TEXT:C284(vPR_idModelli)
 		
 		vPR_id:=Generate UUID:C1066
 		vPR_codice:=0
@@ -275,6 +276,7 @@ Case of
 		vPR_pmt:=False:C215
 		vPR_barcode:=""
 		vPR_testo:=""
+		vPR_idModelli:=""
 		
 		pfPromozioniInserimento("inizializzaRicompense")
 		pfPromozioniInserimento("inizializzaArticoli")
@@ -291,6 +293,13 @@ Case of
 			selTipo:=1
 			selTipo{0}:=selTipo{selTipo}
 		End if 
+		
+		ARRAY TEXT:C222(selSottoTipo; 0)
+		ARRAY TEXT:C222(selSottoTipoCodice; 0)
+		APPEND TO ARRAY:C911(selSottoTipo; "NESSUNO")
+		APPEND TO ARRAY:C911(selSottoTipoCodice; "")
+		selSottoTipo:=1
+		selSottoTipo{0}:=selSottoTipo{selSottoTipo}
 		
 		ARRAY TEXT:C222(selTipoCliente; 0)
 		APPEND TO ARRAY:C911(selTipoCliente; "0 - TUTTI")
@@ -337,6 +346,7 @@ Case of
 					vPR_codice:=OB Get:C1224($promozioni{1}; "codice"; Is longint:K8:6)
 					vPR_codiceCatalina:=OB Get:C1224($promozioni{1}; "codiceCatalina"; Is longint:K8:6)
 					vPR_tipo:=OB Get:C1224($promozioni{1}; "tipo"; Is text:K8:3)
+					vPR_sottoTipo:=OB Get:C1224($promozioni{1}; "sottoTipo"; Is text:K8:3)
 					vPR_descrizione:=OB Get:C1224($promozioni{1}; "descrizione"; Is text:K8:3)
 					vPR_ripetibilita:=OB Get:C1224($promozioni{1}; "ripetibilita"; Is real:K8:4)
 					vPR_dataInizio:=OB Get:C1224($promozioni{1}; "dataInizio"; Is date:K8:7)
@@ -359,6 +369,7 @@ Case of
 					vPR_pmt:=(OB Get:C1224($promozioni{1}; "pmt"; Is longint:K8:6)=1)
 					vPR_barcode:=OB Get:C1224($promozioni{1}; "barcode"; Is text:K8:3)
 					vPR_testo:=OB Get:C1224($promozioni{1}; "testo"; Is text:K8:3)
+					vPR_idModelli:=OB Get:C1224($promozioni{1}; "idModelli"; Is text:K8:3)
 					
 					$n:=Find in array:C230(selTipoCodice; vPR_tipo)
 					If ($n>0)
@@ -436,6 +447,7 @@ Case of
 		OB SET:C1220($promozione; "codice"; vPR_codice)
 		OB SET:C1220($promozione; "codiceCatalina"; vPR_codiceCatalina)
 		OB SET:C1220($promozione; "tipo"; vPR_tipo)
+		OB SET:C1220($promozione; "sottoTipo"; vPR_sottoTipo)
 		OB SET:C1220($promozione; "descrizione"; vPR_descrizione)
 		OB SET:C1220($promozione; "ripetibilita"; vPR_ripetibilita)
 		OB SET:C1220($promozione; "dataInizio"; vPR_dataInizio)
@@ -451,6 +463,7 @@ Case of
 		OB SET:C1220($promozione; "pmt"; Choose:C955(vPR_pmt; 1; 0))
 		OB SET:C1220($promozione; "barcode"; vPR_barcode)
 		OB SET:C1220($promozione; "testo"; vPR_testo)
+		OB SET:C1220($promozione; "idModelli"; vPR_idModelli)
 		
 		$recordM:=""
 		If (Not:C34(vPR_bozza))
@@ -535,6 +548,7 @@ Case of
 				APPEND TO ARRAY:C911(arPR_codice; vPR_codice)
 				APPEND TO ARRAY:C911(arPR_codiceCatalina; vPR_codiceCatalina)
 				APPEND TO ARRAY:C911(arPR_tipo; vPR_tipo)
+				APPEND TO ARRAY:C911(arPR_sottoTipo; vPR_sottoTipo)
 				APPEND TO ARRAY:C911(arPR_descrizione; vPR_descrizione)
 				APPEND TO ARRAY:C911(arPR_ripetibilita; vPR_ripetibilita)
 				APPEND TO ARRAY:C911(arPR_dataInizio; vPR_dataInizio)
@@ -557,15 +571,25 @@ Case of
 				APPEND TO ARRAY:C911(arPR_pmt; vPR_pmt)
 				APPEND TO ARRAY:C911(arPR_barcode; vPR_barcode)
 				APPEND TO ARRAY:C911(arPR_testo; vPR_testo)
-				APPEND TO ARRAY:C911(arPR_soglia; 0)
-				APPEND TO ARRAY:C911(arPR_importo; 0)
-				APPEND TO ARRAY:C911(arPR_numeroSedi; 0)
+				APPEND TO ARRAY:C911(arPR_idModelli; vPR_idModelli)
 				
+				$soglia:=0
+				$importo:=0
+				If (Size of array:C274(arRI_id)=1)
+					$soglia:=arRI_soglia{1}
+					$importo:=arRI_ammontare{1}
+				End if 
+				$numeroSedi:=Size of array:C274(arSE_id)
+				
+				APPEND TO ARRAY:C911(arPR_soglia; $soglia)
+				APPEND TO ARRAY:C911(arPR_importo; $importo)
+				APPEND TO ARRAY:C911(arPR_numeroSedi; $numeroSedi)
 			Else 
 				arPR_id{promozioneSelezionata}:=vPR_id
 				arPR_codice{promozioneSelezionata}:=vPR_codice
 				arPR_codiceCatalina{promozioneSelezionata}:=vPR_codiceCatalina
 				arPR_tipo{promozioneSelezionata}:=vPR_tipo
+				arPR_sottoTipo{promozioneSelezionata}:=vPR_sottoTipo
 				arPR_descrizione{promozioneSelezionata}:=vPR_descrizione
 				arPR_ripetibilita{promozioneSelezionata}:=vPR_ripetibilita
 				arPR_dataInizio{promozioneSelezionata}:=vPR_dataInizio
@@ -588,6 +612,7 @@ Case of
 				arPR_pmt{promozioneSelezionata}:=vPR_pmt
 				arPR_barcode{promozioneSelezionata}:=vPR_barcode
 				arPR_testo{promozioneSelezionata}:=vPR_testo
+				arPR_idModelli{promozioneSelezionata}:=vPR_idModelli
 				
 				arPR_soglia{promozioneSelezionata}:=0
 				arPR_importo{promozioneSelezionata}:=0
@@ -597,7 +622,6 @@ Case of
 				End if 
 				
 				arPR_numeroSedi{promozioneSelezionata}:=Size of array:C274(arSE_id)
-				
 			End if 
 			CANCEL:C270
 		Else 

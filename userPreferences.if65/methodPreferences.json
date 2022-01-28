@@ -1,15 +1,12 @@
 {
 	"Sources/Methods/pfPromozioni.4dm": {
-		"startSelection": 0,
-		"endSelection": 23,
-		"firstSelectedLine": 165,
-		"lastSelectedLine": 165,
-		"folding": [
-			46,
-			246
-		],
+		"startSelection": 98,
+		"endSelection": 98,
+		"firstSelectedLine": 195,
+		"lastSelectedLine": 195,
+		"folding": [],
 		"bookmarks": [],
-		"stamp": "2020-11-11T10:21:31.000Z"
+		"stamp": "2022-01-28T15:32:55.500Z"
 	},
 	"Sources/Methods/utlOnErrCall.4dm": {
 		"startSelection": 0,
@@ -66,19 +63,15 @@
 		"stamp": "2020-09-29T19:23:06.000Z"
 	},
 	"Sources/Methods/pfPromozioniInserimento.4dm": {
-		"startSelection": 2,
-		"endSelection": 2,
-		"firstSelectedLine": 347,
-		"lastSelectedLine": 347,
+		"startSelection": 45,
+		"endSelection": 45,
+		"firstSelectedLine": 579,
+		"lastSelectedLine": 579,
 		"folding": [
-			83,
-			118,
-			138,
-			216,
-			222
+			216
 		],
 		"bookmarks": [],
-		"stamp": "2021-12-02T16:33:49.962Z"
+		"stamp": "2022-01-28T14:57:21.866Z"
 	},
 	"Sources/Methods/utlElencoNegozi.4dm": {
 		"startSelection": 23,
@@ -269,10 +262,10 @@
 		"stamp": "2021-12-02T15:21:03.919Z"
 	},
 	"Sources/Methods/utlProgressivoCrea.4dm": {
-		"startSelection": 0,
-		"endSelection": 0,
-		"firstSelectedLine": 0,
-		"lastSelectedLine": 0,
+		"startSelection": 30,
+		"endSelection": 45,
+		"firstSelectedLine": 22,
+		"lastSelectedLine": 22,
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2020-09-29T19:23:06.000Z"
@@ -305,11 +298,13 @@
 		"stamp": "2020-09-29T19:23:06.248Z"
 	},
 	"Sources/Methods/catalinaCaricamento_0503.4dm": {
-		"startSelection": 2,
-		"endSelection": 2,
-		"firstSelectedLine": 57,
-		"lastSelectedLine": 57,
-		"folding": [],
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 62,
+		"lastSelectedLine": 61,
+		"folding": [
+			61
+		],
 		"bookmarks": [],
 		"stamp": "2021-05-23T22:30:39.800Z"
 	},
@@ -339,15 +334,6 @@
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2021-09-10T14:31:45.929Z"
-	},
-	"Sources/Methods/_marco.4dm": {
-		"startSelection": 0,
-		"endSelection": 0,
-		"firstSelectedLine": 7,
-		"lastSelectedLine": 7,
-		"folding": [],
-		"bookmarks": [],
-		"stamp": "2021-11-09T09:01:54.886Z"
 	},
 	"Sources/Methods/catalinaCaricamento_ACPT.4dm": {
 		"startSelection": 30,
@@ -433,33 +419,6 @@
 		"bookmarks": [],
 		"stamp": "2021-12-02T15:22:07.273Z"
 	},
-	"Sources/Methods/_marco2.4dm": {
-		"startSelection": 0,
-		"endSelection": 0,
-		"firstSelectedLine": 17,
-		"lastSelectedLine": 17,
-		"folding": [],
-		"bookmarks": [],
-		"stamp": "2020-10-23T12:56:12.797Z"
-	},
-	"Sources/Methods/_marco3.4dm": {
-		"startSelection": 5,
-		"endSelection": 0,
-		"firstSelectedLine": 31,
-		"lastSelectedLine": 0,
-		"folding": [],
-		"bookmarks": [],
-		"stamp": "2020-11-15T07:26:49.210Z"
-	},
-	"Sources/Methods/_marco4.4dm": {
-		"startSelection": 0,
-		"endSelection": 0,
-		"firstSelectedLine": 4,
-		"lastSelectedLine": 4,
-		"folding": [],
-		"bookmarks": [],
-		"stamp": "2021-02-10T06:09:39.127Z"
-	},
 	"Sources/Methods/utlCreaPmtLibriDaTemplate.4dm": {
 		"startSelection": 0,
 		"endSelection": 0,
@@ -487,32 +446,14 @@
 		"bookmarks": [],
 		"stamp": "2021-07-15T08:50:06.030Z"
 	},
-	"Sources/Methods/_marco5.4dm": {
-		"startSelection": 0,
-		"endSelection": 56,
-		"firstSelectedLine": 2,
-		"lastSelectedLine": 2,
-		"folding": [],
-		"bookmarks": [],
-		"stamp": "2021-07-15T08:50:23.230Z"
-	},
-	"Sources/Methods/_marco6.4dm": {
-		"startSelection": 32,
-		"endSelection": 32,
-		"firstSelectedLine": 22,
-		"lastSelectedLine": 22,
-		"folding": [],
-		"bookmarks": [],
-		"stamp": "2021-09-20T06:51:56.238Z"
-	},
 	"Sources/DatabaseMethods/onStartup.4dm": {
-		"startSelection": 71,
-		"endSelection": 71,
-		"firstSelectedLine": 278,
-		"lastSelectedLine": 278,
+		"startSelection": 19,
+		"endSelection": 19,
+		"firstSelectedLine": 16,
+		"lastSelectedLine": 16,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2022-01-26T10:03:46.122Z"
+		"stamp": "2022-01-26T15:22:24.790Z"
 	},
 	"Sources/DatabaseMethods/onWebConnection.4dm": {
 		"startSelection": 0,
@@ -569,21 +510,19 @@
 		"stamp": "2020-09-29T19:23:06.490Z"
 	},
 	"Sources/Forms/pfPromozioni/ObjectMethods/alpPromozioni.4dm": {
-		"startSelection": 0,
-		"endSelection": 12,
-		"firstSelectedLine": 83,
-		"lastSelectedLine": 83,
-		"folding": [
-			76
-		],
+		"startSelection": 59,
+		"endSelection": 59,
+		"firstSelectedLine": 42,
+		"lastSelectedLine": 42,
+		"folding": [],
 		"bookmarks": [],
-		"stamp": "2020-11-15T21:01:41.000Z"
+		"stamp": "2022-01-28T14:59:54.085Z"
 	},
 	"Sources/Forms/pfPromozioni/ObjectMethods/Button1.4dm": {
-		"startSelection": 30,
-		"endSelection": 30,
-		"firstSelectedLine": 1,
-		"lastSelectedLine": 1,
+		"startSelection": 0,
+		"endSelection": 12,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2020-09-29T19:23:06.000Z"
@@ -652,13 +591,12 @@
 		"stamp": "2020-09-29T19:23:06.503Z"
 	},
 	"Sources/Forms/pfPromozioniInserimento/method.4dm": {
-		"startSelection": 9,
-		"endSelection": 9,
-		"firstSelectedLine": 8,
-		"lastSelectedLine": 8,
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 6,
+		"lastSelectedLine": 6,
 		"folding": [
 			5,
-			42,
 			54
 		],
 		"bookmarks": [],
@@ -667,8 +605,8 @@
 	"Sources/Forms/pfPromozioniInserimento/ObjectMethods/vPR_bozza.4dm": {
 		"startSelection": 0,
 		"endSelection": 23,
-		"firstSelectedLine": 3,
-		"lastSelectedLine": 3,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2020-09-29T19:23:06.000Z"
@@ -680,7 +618,7 @@
 		"lastSelectedLine": 4,
 		"folding": [],
 		"bookmarks": [],
-		"stamp": "2020-09-29T19:23:06.507Z"
+		"stamp": "2020-09-29T19:23:06.000Z"
 	},
 	"Sources/Forms/pfPromozioniInserimento/ObjectMethods/vPR_barcode.4dm": {
 		"startSelection": 0,
@@ -746,10 +684,10 @@
 		"stamp": "2020-09-29T19:23:06.513Z"
 	},
 	"Sources/Forms/pfPromozioniInserimento/ObjectMethods/ricompense01.4dm": {
-		"startSelection": 31,
-		"endSelection": 38,
-		"firstSelectedLine": 29,
-		"lastSelectedLine": 29,
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 1,
+		"lastSelectedLine": 1,
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2020-09-29T19:23:06.000Z"
@@ -1190,10 +1128,10 @@
 		"stamp": "2021-09-20T11:51:01.440Z"
 	},
 	"Sources/Methods/_creazioneCatalina_0503.4dm": {
-		"startSelection": 30,
-		"endSelection": 30,
-		"firstSelectedLine": 99,
-		"lastSelectedLine": 99,
+		"startSelection": 0,
+		"endSelection": 24,
+		"firstSelectedLine": 106,
+		"lastSelectedLine": 106,
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2021-11-09T09:52:20.497Z"
@@ -1201,8 +1139,8 @@
 	"Sources/Methods/_creazioneCatalina_ACPT.4dm": {
 		"startSelection": 40,
 		"endSelection": 40,
-		"firstSelectedLine": 554,
-		"lastSelectedLine": 554,
+		"firstSelectedLine": 545,
+		"lastSelectedLine": 545,
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2021-09-10T09:21:58.889Z"
@@ -1769,15 +1707,6 @@
 		"bookmarks": [],
 		"stamp": "2021-07-22T15:05:56.717Z"
 	},
-	"Sources/Methods/_marco7.4dm": {
-		"startSelection": 0,
-		"endSelection": 0,
-		"firstSelectedLine": 0,
-		"lastSelectedLine": 0,
-		"folding": [],
-		"bookmarks": [],
-		"stamp": "2022-01-20T13:58:01.439Z"
-	},
 	"Sources/Forms/qTransazioni/ObjectMethods/List Box1.4dm": {
 		"startSelection": 0,
 		"endSelection": 0,
@@ -1949,15 +1878,6 @@
 		"bookmarks": [],
 		"stamp": "2021-08-14T08:14:19.545Z"
 	},
-	"Sources/Methods/_fatture.4dm": {
-		"startSelection": 0,
-		"endSelection": 0,
-		"firstSelectedLine": 2,
-		"lastSelectedLine": 2,
-		"folding": [],
-		"bookmarks": [],
-		"stamp": "2021-08-16T15:51:29.328Z"
-	},
 	"Sources/Methods/procMostraTermometro.4dm": {
 		"startSelection": 12,
 		"endSelection": 12,
@@ -2101,5 +2021,122 @@
 		"folding": [],
 		"bookmarks": [],
 		"stamp": "2022-01-21T07:34:23.596Z"
+	},
+	"Sources/Forms/pfPromozioniInserimento/ObjectMethods/selSottoTipo.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 9,
+		"lastSelectedLine": 9,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-01-26T16:51:24.445Z"
+	},
+	"Trash/Methods/(_marco7).4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-01-20T13:58:01.439Z"
+	},
+	"Trash/Methods/(_marco6).4dm": {
+		"startSelection": 32,
+		"endSelection": 32,
+		"firstSelectedLine": 22,
+		"lastSelectedLine": 22,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-09-20T06:51:56.238Z"
+	},
+	"Trash/Methods/(_marco5).4dm": {
+		"startSelection": 0,
+		"endSelection": 56,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-07-15T08:50:23.230Z"
+	},
+	"Trash/Methods/(_marco4).4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 4,
+		"lastSelectedLine": 4,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-02-10T06:09:39.127Z"
+	},
+	"Trash/Methods/(_marco3).4dm": {
+		"startSelection": 5,
+		"endSelection": 0,
+		"firstSelectedLine": 31,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-11-15T07:26:49.210Z"
+	},
+	"Trash/Methods/(_marco2).4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 17,
+		"lastSelectedLine": 17,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-10-23T12:56:12.797Z"
+	},
+	"Trash/Methods/(_marco1).4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-01-27T14:25:04.142Z"
+	},
+	"Trash/Methods/(_fatture).4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 2,
+		"lastSelectedLine": 2,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2021-08-16T15:51:29.328Z"
+	},
+	"Sources/Methods/_creazione_0503_PMT.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-01-27T14:21:40.743Z"
+	},
+	"Sources/Methods/_scValTrx_0503_Pmt_Creazione.4dm": {
+		"startSelection": 22,
+		"endSelection": 22,
+		"firstSelectedLine": 35,
+		"lastSelectedLine": 35,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-01-27T20:05:23.068Z"
+	},
+	"Sources/Methods/_ScValTrx_0503_Pmt_Parametri.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 167,
+		"lastSelectedLine": 167,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-01-28T06:26:57.918Z"
+	},
+	"Sources/Methods/_ScValTrx_0503_Pmt_Template.4dm": {
+		"startSelection": 13,
+		"endSelection": 13,
+		"firstSelectedLine": 20,
+		"lastSelectedLine": 20,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2022-01-27T15:43:44.669Z"
 	}
 }

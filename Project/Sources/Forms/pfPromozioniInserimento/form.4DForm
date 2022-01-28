@@ -26,17 +26,24 @@
 		null,
 		{
 			"objects": {
+				"Group Box9": {
+					"type": "groupBox",
+					"top": 64,
+					"left": 294,
+					"width": 135,
+					"height": 80
+				},
 				"Group Box8": {
 					"type": "groupBox",
 					"top": 64,
-					"left": 597,
+					"left": 737,
 					"width": 84,
 					"height": 80
 				},
 				"Group Box7": {
 					"type": "groupBox",
 					"top": 64,
-					"left": 876,
+					"left": 1016,
 					"width": 182,
 					"height": 80
 				},
@@ -44,13 +51,13 @@
 					"type": "groupBox",
 					"top": 416,
 					"left": 9,
-					"width": 829,
+					"width": 969,
 					"height": 140
 				},
 				"Group Box5": {
 					"type": "groupBox",
 					"top": 110,
-					"left": 294,
+					"left": 434,
 					"width": 298,
 					"height": 34
 				},
@@ -64,14 +71,14 @@
 				"Group Box3": {
 					"type": "groupBox",
 					"top": 64,
-					"left": 801,
+					"left": 941,
 					"width": 71,
 					"height": 80
 				},
 				"Group Box2": {
 					"type": "groupBox",
 					"top": 64,
-					"left": 294,
+					"left": 434,
 					"width": 298,
 					"height": 42
 				},
@@ -85,14 +92,14 @@
 				"Group Box": {
 					"type": "groupBox",
 					"top": 64,
-					"left": 686,
+					"left": 826,
 					"width": 111,
 					"height": 80
 				},
 				"Rectangle": {
 					"type": "rectangle",
 					"top": 59,
-					"left": 1061,
+					"left": 1201,
 					"width": 1,
 					"height": 1,
 					"fill": "transparent"
@@ -100,7 +107,7 @@
 				"Text": {
 					"type": "text",
 					"top": 70,
-					"left": 700,
+					"left": 840,
 					"width": 65,
 					"height": 13,
 					"class": "Supermedia_Label",
@@ -109,7 +116,7 @@
 				"Text1": {
 					"type": "text",
 					"top": 108,
-					"left": 700,
+					"left": 840,
 					"width": 54,
 					"height": 13,
 					"class": "Supermedia_Label",
@@ -168,9 +175,9 @@
 				},
 				"vPR_codiceCatalina": {
 					"type": "input",
-					"top": 120,
-					"left": 109,
-					"width": 64,
+					"top": 82,
+					"left": 303,
+					"width": 117,
 					"height": 14,
 					"dataSource": "vPR_codiceCatalina",
 					"dataSourceTypeHint": "number",
@@ -187,8 +194,8 @@
 				"vPR_barcode": {
 					"type": "input",
 					"top": 120,
-					"left": 182,
-					"width": 99,
+					"left": 303,
+					"width": 117,
 					"height": 14,
 					"dataSource": "vPR_barcode",
 					"class": "Supermedia_Campi_12",
@@ -204,7 +211,7 @@
 				"vPR_descrizione": {
 					"type": "input",
 					"top": 82,
-					"left": 302,
+					"left": 442,
 					"width": 281,
 					"height": 14,
 					"dataSource": "vPR_descrizione",
@@ -220,7 +227,7 @@
 				"vPR_Do": {
 					"type": "checkbox",
 					"top": 114,
-					"left": 299,
+					"left": 439,
 					"width": 36,
 					"height": 26,
 					"dataSource": "vPR_Do",
@@ -235,7 +242,7 @@
 				"vPR_Lu": {
 					"type": "checkbox",
 					"top": 114,
-					"left": 341,
+					"left": 481,
 					"width": 36,
 					"height": 26,
 					"dataSource": "vPR_Lu",
@@ -250,7 +257,7 @@
 				"vPR_Ma": {
 					"type": "checkbox",
 					"top": 114,
-					"left": 384,
+					"left": 524,
 					"width": 36,
 					"height": 26,
 					"dataSource": "vPR_Ma",
@@ -265,7 +272,7 @@
 				"vPR_Me": {
 					"type": "checkbox",
 					"top": 114,
-					"left": 427,
+					"left": 567,
 					"width": 36,
 					"height": 26,
 					"dataSource": "vPR_Me",
@@ -280,7 +287,7 @@
 				"vPR_Gi": {
 					"type": "checkbox",
 					"top": 114,
-					"left": 470,
+					"left": 610,
 					"width": 36,
 					"height": 26,
 					"dataSource": "vPR_Gi",
@@ -295,7 +302,7 @@
 				"vPR_Ve": {
 					"type": "checkbox",
 					"top": 114,
-					"left": 513,
+					"left": 653,
 					"width": 36,
 					"height": 26,
 					"dataSource": "vPR_Ve",
@@ -310,7 +317,7 @@
 				"vPR_Sa": {
 					"type": "checkbox",
 					"top": 114,
-					"left": 556,
+					"left": 696,
 					"width": 36,
 					"height": 26,
 					"dataSource": "vPR_Sa",
@@ -325,7 +332,7 @@
 				"vPR_ripetibilita": {
 					"type": "input",
 					"top": 82,
-					"left": 607,
+					"left": 747,
 					"width": 64,
 					"height": 14,
 					"dataSource": "vPR_ripetibilita",
@@ -343,7 +350,7 @@
 				"vPR_pmt": {
 					"type": "checkbox",
 					"top": 114,
-					"left": 604,
+					"left": 744,
 					"width": 71,
 					"height": 26,
 					"dataSource": "vPR_pmt",
@@ -358,7 +365,7 @@
 				"vPR_dataInizio": {
 					"type": "input",
 					"top": 82,
-					"left": 696,
+					"left": 836,
 					"width": 65,
 					"height": 14,
 					"dataSource": "vPR_dataInizio",
@@ -375,7 +382,7 @@
 				"vPR_dataFine": {
 					"type": "input",
 					"top": 120,
-					"left": 696,
+					"left": 836,
 					"width": 65,
 					"height": 14,
 					"dataSource": "vPR_dataFine",
@@ -391,7 +398,7 @@
 				"vPR_dataInizio1": {
 					"type": "subform",
 					"top": 81,
-					"left": 768,
+					"left": 908,
 					"width": 19,
 					"height": 16,
 					"dataSource": "vPR_dataInizio",
@@ -412,7 +419,7 @@
 				"vPR_dataFine1": {
 					"type": "subform",
 					"top": 119,
-					"left": 768,
+					"left": 908,
 					"width": 19,
 					"height": 16,
 					"dataSource": "vPR_dataFine",
@@ -433,7 +440,7 @@
 				"vPR_oraInizio": {
 					"type": "input",
 					"top": 82,
-					"left": 811,
+					"left": 951,
 					"width": 51,
 					"height": 14,
 					"dataSource": "vPR_oraInizio",
@@ -451,7 +458,7 @@
 				"vPR_oraFine": {
 					"type": "input",
 					"top": 120,
-					"left": 811,
+					"left": 951,
 					"width": 49,
 					"height": 14,
 					"dataSource": "vPR_oraFine",
@@ -469,7 +476,7 @@
 				"selTipoCliente": {
 					"type": "dropdown",
 					"top": 79,
-					"left": 888,
+					"left": 1028,
 					"width": 160,
 					"height": 19,
 					"sizingX": "grow",
@@ -485,7 +492,7 @@
 				"vPR_categoria": {
 					"type": "input",
 					"top": 120,
-					"left": 891,
+					"left": 1031,
 					"width": 69,
 					"height": 14,
 					"dataSource": "vPR_categoria",
@@ -504,7 +511,7 @@
 					"type": "plugin",
 					"top": 168,
 					"left": 10,
-					"width": 454,
+					"width": 494,
 					"height": 228,
 					"sizingY": "grow",
 					"dataSource": "alpRicompense",
@@ -520,8 +527,8 @@
 				"articoli01": {
 					"type": "plugin",
 					"top": 168,
-					"left": 509,
-					"width": 327,
+					"left": 549,
+					"width": 427,
 					"height": 228,
 					"sizingY": "grow",
 					"dataSource": "alpArticoli",
@@ -537,7 +544,7 @@
 				"alpSedi": {
 					"type": "plugin",
 					"top": 168,
-					"left": 879,
+					"left": 1019,
 					"width": 155,
 					"height": 385,
 					"sizingX": "grow",
@@ -564,7 +571,7 @@
 				"Text4": {
 					"type": "text",
 					"top": 70,
-					"left": 306,
+					"left": 446,
 					"width": 85,
 					"height": 13,
 					"class": "Supermedia_Label",
@@ -573,7 +580,7 @@
 				"Text5": {
 					"type": "text",
 					"top": 70,
-					"left": 815,
+					"left": 955,
 					"width": 50,
 					"height": 13,
 					"class": "Supermedia_Label",
@@ -582,7 +589,7 @@
 				"Text6": {
 					"type": "text",
 					"top": 108,
-					"left": 815,
+					"left": 955,
 					"width": 50,
 					"height": 13,
 					"class": "Supermedia_Label",
@@ -591,7 +598,7 @@
 				"Text8": {
 					"type": "text",
 					"top": 68,
-					"left": 894,
+					"left": 1034,
 					"width": 85,
 					"height": 13,
 					"sizingX": "move",
@@ -619,7 +626,7 @@
 				"articoli04": {
 					"type": "text",
 					"top": 155,
-					"left": 520,
+					"left": 660,
 					"width": 85,
 					"height": 13,
 					"class": "Supermedia_Label",
@@ -628,20 +635,20 @@
 				"Text3": {
 					"type": "text",
 					"top": 108,
-					"left": 186,
-					"width": 45,
+					"left": 307,
+					"width": 85,
 					"height": 13,
 					"class": "Supermedia_Label",
-					"text": "Barcode"
+					"text": "Barcode Principale"
 				},
 				"Text10": {
 					"type": "text",
-					"top": 108,
-					"left": 112,
-					"width": 58,
+					"top": 70,
+					"left": 306,
+					"width": 78,
 					"height": 13,
 					"class": "Supermedia_Label",
-					"text": "Codice Cat."
+					"text": "Codice Catalina"
 				},
 				"Text2": {
 					"type": "text",
@@ -655,7 +662,7 @@
 				"lblSediSelezionate": {
 					"type": "text",
 					"top": 155,
-					"left": 890,
+					"left": 1030,
 					"width": 85,
 					"height": 13,
 					"class": "Supermedia_Label",
@@ -736,7 +743,7 @@
 				"bDelete": {
 					"type": "pictureButton",
 					"top": 3,
-					"left": 894,
+					"left": 1034,
 					"width": 48,
 					"height": 48,
 					"sizingX": "move",
@@ -755,7 +762,7 @@
 				"bCancel": {
 					"type": "pictureButton",
 					"top": 3,
-					"left": 957,
+					"left": 1097,
 					"width": 48,
 					"height": 48,
 					"sizingX": "move",
@@ -775,7 +782,7 @@
 				"bValidate": {
 					"type": "pictureButton",
 					"top": 3,
-					"left": 1020,
+					"left": 1160,
 					"width": 48,
 					"height": 48,
 					"sizingX": "move",
@@ -805,7 +812,7 @@
 				"ricompense02": {
 					"type": "pictureButton",
 					"top": 160,
-					"left": 463,
+					"left": 503,
 					"width": 36,
 					"height": 36,
 					"tooltip": {
@@ -824,7 +831,7 @@
 				"ricompense03": {
 					"type": "pictureButton",
 					"top": 201,
-					"left": 463,
+					"left": 503,
 					"width": 36,
 					"height": 36,
 					"tooltip": {
@@ -843,7 +850,7 @@
 				"articoli02": {
 					"type": "pictureButton",
 					"top": 160,
-					"left": 835,
+					"left": 975,
 					"width": 36,
 					"height": 36,
 					"tooltip": {
@@ -862,7 +869,7 @@
 				"articoli03": {
 					"type": "pictureButton",
 					"top": 201,
-					"left": 835,
+					"left": 975,
 					"width": 36,
 					"height": 36,
 					"tooltip": {
@@ -881,7 +888,7 @@
 				"bReport": {
 					"type": "pictureButton",
 					"top": 160,
-					"left": 1034,
+					"left": 1174,
 					"width": 36,
 					"height": 36,
 					"sizingX": "move",
@@ -902,7 +909,7 @@
 					"type": "input",
 					"top": 424,
 					"left": 17,
-					"width": 813,
+					"width": 953,
 					"height": 122,
 					"dataSource": "vPR_testo",
 					"class": "Supermedia_Campi_12",
@@ -928,7 +935,7 @@
 				"Text7": {
 					"type": "text",
 					"top": 108,
-					"left": 895,
+					"left": 1035,
 					"width": 50,
 					"height": 13,
 					"class": "Supermedia_Label",
@@ -937,7 +944,7 @@
 				"bReport1": {
 					"type": "pictureButton",
 					"top": 413,
-					"left": 835,
+					"left": 975,
 					"width": 36,
 					"height": 36,
 					"sizingX": "move",
@@ -957,7 +964,7 @@
 				"Text11": {
 					"type": "text",
 					"top": 70,
-					"left": 611,
+					"left": 751,
 					"width": 58,
 					"height": 13,
 					"class": "Supermedia_Label",
@@ -967,18 +974,42 @@
 					"type": "button",
 					"text": "Button",
 					"top": 15,
-					"left": 366,
+					"left": 506,
 					"width": 81,
 					"height": 17,
 					"events": [
 						"onClick"
 					],
 					"method": "ObjectMethods/Button.4dm"
+				},
+				"selSottoTipo": {
+					"type": "dropdown",
+					"top": 118,
+					"left": 105,
+					"width": 177,
+					"height": 19,
+					"dataSource": "selSottoTipo",
+					"focusable": false,
+					"class": "Supermedia_Bottoni",
+					"method": "ObjectMethods/selSottoTipo.4dm",
+					"events": [
+						"onClick",
+						"onDataChange"
+					]
+				},
+				"Text12": {
+					"type": "text",
+					"top": 108,
+					"left": 111,
+					"width": 99,
+					"height": 13,
+					"class": "Supermedia_Label",
+					"text": "Sotto Tipo"
 				}
 			}
 		}
 	],
-	"geometryStamp": 2,
+	"geometryStamp": 131,
 	"$4d": {
 		"version": "1",
 		"kind": "form"

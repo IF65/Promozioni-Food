@@ -2,12 +2,20 @@
 	"editors": [
 		{
 			"type": "method",
-			"id": 2147483546,
+			"id": 2147483610,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "pfPromozioni"
+			}
+		},
+		{
+			"type": "method",
+			"id": 2147483548,
 			"codeDescriptor": {
 				"type": 2,
 				"formName": "pfPromozioni",
-				"objectName": "Button8",
-				"methodPath": "/SOURCES/Forms/pfPromozioni/ObjectMethods/Button8.4dm"
+				"objectName": "alpPromozioni",
+				"methodPath": "/SOURCES/Forms/pfPromozioni/ObjectMethods/alpPromozioni.4dm"
 			}
 		},
 		{

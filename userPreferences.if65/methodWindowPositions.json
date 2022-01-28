@@ -42,8 +42,8 @@
 		"height": 794
 	},
 	"Sources/Methods/pfPromozioniInserimento.4dm": {
-		"left": 358,
-		"top": 194,
+		"left": 271,
+		"top": 123,
 		"width": 1275,
 		"height": 813
 	},
@@ -263,12 +263,6 @@
 		"width": 1031,
 		"height": 932
 	},
-	"Sources/Methods/_marco.4dm": {
-		"left": 521,
-		"top": 200,
-		"width": 1455,
-		"height": 869
-	},
 	"Sources/Methods/catalinaCaricamento_ACPT.4dm": {
 		"left": 773,
 		"top": 115,
@@ -341,24 +335,6 @@
 		"width": 1229,
 		"height": 887
 	},
-	"Sources/Methods/_marco2.4dm": {
-		"left": 206,
-		"top": 103,
-		"width": 1246,
-		"height": 880
-	},
-	"Sources/Methods/_marco3.4dm": {
-		"left": 321,
-		"top": 146,
-		"width": 1324,
-		"height": 801
-	},
-	"Sources/Methods/_marco4.4dm": {
-		"left": 55,
-		"top": 153,
-		"width": 1692,
-		"height": 830
-	},
 	"Sources/Methods/utlCreaPmtLibriDaTemplate.4dm": {
 		"left": 9,
 		"top": 128,
@@ -376,18 +352,6 @@
 		"top": 103,
 		"width": 1455,
 		"height": 869
-	},
-	"Sources/Methods/_marco5.4dm": {
-		"left": 628,
-		"top": 273,
-		"width": 1229,
-		"height": 807
-	},
-	"Sources/Methods/_marco6.4dm": {
-		"left": 130,
-		"top": 499,
-		"width": 1471,
-		"height": 667
 	},
 	"Sources/DatabaseMethods/onStartup.4dm": {
 		"left": 18,
@@ -516,8 +480,8 @@
 		"height": 932
 	},
 	"Sources/Forms/pfPromozioniInserimento/method.4dm": {
-		"left": 219,
-		"top": 221,
+		"left": 164,
+		"top": 171,
 		"width": 1920,
 		"height": 932
 	},
@@ -1283,12 +1247,6 @@
 		"width": 1520,
 		"height": 962
 	},
-	"Sources/Methods/_marco7.4dm": {
-		"left": 18,
-		"top": 118,
-		"width": 1520,
-		"height": 962
-	},
 	"Sources/Forms/qTransazioni/ObjectMethods/List Box1.4dm": {
 		"left": 18,
 		"top": 118,
@@ -1403,12 +1361,6 @@
 		"width": 1520,
 		"height": 931
 	},
-	"Sources/Methods/_fatture.4dm": {
-		"left": 157,
-		"top": 111,
-		"width": 1920,
-		"height": 859
-	},
 	"Sources/Classes/Promozione.4dm": {
 		"left": 491,
 		"top": 163,
@@ -1486,5 +1438,83 @@
 		"top": 252,
 		"width": 1329,
 		"height": 822
+	},
+	"Sources/Forms/pfPromozioniInserimento/ObjectMethods/selSottoTipo.4dm": {
+		"left": 208,
+		"top": 127,
+		"width": 1792,
+		"height": 931
+	},
+	"Trash/Methods/(_marco7).4dm": {
+		"left": 18,
+		"top": 118,
+		"width": 1520,
+		"height": 962
+	},
+	"Trash/Methods/(_marco6).4dm": {
+		"left": 130,
+		"top": 499,
+		"width": 1471,
+		"height": 667
+	},
+	"Trash/Methods/(_marco5).4dm": {
+		"left": 628,
+		"top": 273,
+		"width": 1229,
+		"height": 807
+	},
+	"Trash/Methods/(_marco4).4dm": {
+		"left": 55,
+		"top": 153,
+		"width": 1692,
+		"height": 830
+	},
+	"Trash/Methods/(_marco3).4dm": {
+		"left": 321,
+		"top": 146,
+		"width": 1324,
+		"height": 801
+	},
+	"Trash/Methods/(_marco2).4dm": {
+		"left": 206,
+		"top": 103,
+		"width": 1246,
+		"height": 880
+	},
+	"Trash/Methods/(_marco1).4dm": {
+		"left": 730,
+		"top": 135,
+		"width": 1119,
+		"height": 869
+	},
+	"Trash/Methods/(_fatture).4dm": {
+		"left": 157,
+		"top": 111,
+		"width": 1920,
+		"height": 859
+	},
+	"Sources/Methods/_creazione_0503_PMT.4dm": {
+		"left": 583,
+		"top": 193,
+		"width": 1215,
+		"height": 827
+	},
+	"Sources/Methods/_scValTrx_0503_Pmt_Creazione.4dm": {
+		"left": 457,
+		"top": 218,
+		"width": 1411,
+		"height": 745
+	},
+	"Sources/Methods/_ScValTrx_0503_Pmt_Parametri.4dm": {
+		"left": 451,
+		"top": 134,
+		"width": 1147,
+		"height": 825
+	},
+	"Sources/Methods/_ScValTrx_0503_Pmt_Template.4dm": {
+		"left": 583,
+		"top": 193,
+		"width": 1215,
+		"height": 827
 	}
 }

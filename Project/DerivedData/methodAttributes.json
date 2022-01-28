@@ -66,6 +66,9 @@
 		"catalinaCaricamento_0481": {
 			"timeStamp": "2021-09-10T14:31:45.929Z"
 		},
+		"_ScValTrx_0503_Pmt_Template": {
+			"timeStamp": "2022-01-27T15:43:44.669Z"
+		},
 		"utlQuit": {
 			"timeStamp": "2020-09-29T19:23:06.000Z"
 		},
@@ -75,8 +78,8 @@
 		"pfTemplate": {
 			"timeStamp": "2020-09-29T19:23:06.000Z"
 		},
-		"_marco5": {
-			"timeStamp": "2021-07-15T08:50:23.230Z"
+		"_scValTrx_0503_Pmt_Creazione": {
+			"timeStamp": "2022-01-27T20:05:23.068Z"
 		},
 		"utlTermometro": {
 			"timeStamp": "2020-09-29T19:23:06.000Z"
@@ -84,23 +87,8 @@
 		"utlCreaPmtDaTemplate": {
 			"timeStamp": "2021-01-11T08:11:52.998Z"
 		},
-		"_marco": {
-			"timeStamp": "2021-11-09T09:01:54.886Z"
-		},
-		"_marco4": {
-			"timeStamp": "2021-02-10T06:09:39.127Z"
-		},
-		"_marco6": {
-			"timeStamp": "2021-09-20T06:51:56.238Z"
-		},
-		"_marco7": {
-			"timeStamp": "2022-01-20T13:58:01.439Z"
-		},
 		"utlElencoAderenti": {
 			"timeStamp": "2020-09-29T19:23:06.000Z"
-		},
-		"_marco3": {
-			"timeStamp": "2020-11-15T07:26:49.000Z"
 		},
 		"utlProgressivoCrea": {
 			"timeStamp": "2020-09-29T19:23:06.000Z"
@@ -114,8 +102,8 @@
 		"mapEod": {
 			"timeStamp": "2021-07-20T05:58:12.847Z"
 		},
-		"_marco2": {
-			"timeStamp": "2020-10-23T12:56:12.000Z"
+		"_creazione_0503_PMT": {
+			"timeStamp": "2022-01-27T14:21:40.743Z"
 		},
 		"pfCreazioneFile": {
 			"timeStamp": "2021-12-02T16:06:40.392Z"
@@ -126,11 +114,8 @@
 		"utlOttieniBarcode8Catalina": {
 			"timeStamp": "2020-09-29T19:23:06.000Z"
 		},
-		"pfPromozioniInserimento1": {
-			"timeStamp": "2021-10-10T14:21:49.949Z"
-		},
 		"pfPromozioni": {
-			"timeStamp": "2020-11-11T10:21:31.000Z"
+			"timeStamp": "2022-01-28T15:32:55.500Z"
 		},
 		"setupStampante": {
 			"timeStamp": "2021-10-15T23:43:58.972Z"
@@ -151,7 +136,7 @@
 			"timeStamp": "2020-09-29T19:23:06.000Z"
 		},
 		"pfPromozioniInserimento": {
-			"timeStamp": "2021-12-02T16:33:49.962Z"
+			"timeStamp": "2022-01-28T14:57:21.866Z"
 		},
 		"utlAlpAreaFormatColumn": {
 			"timeStamp": "2020-09-29T19:23:06.000Z"
@@ -179,9 +164,6 @@
 		},
 		"pfCreazioneFileLocal": {
 			"timeStamp": "2020-09-29T19:23:06.000Z"
-		},
-		"pfPromozioni1": {
-			"timeStamp": "2021-10-16T00:11:38.873Z"
 		},
 		"pfIncarichi": {
 			"timeStamp": "2021-12-02T15:21:03.919Z"
@@ -222,8 +204,8 @@
 		"mapPromoTipo2Descrizione": {
 			"timeStamp": "2021-08-14T08:14:19.545Z"
 		},
-		"_fatture": {
-			"timeStamp": "2021-08-16T15:51:29.328Z"
+		"_ScValTrx_0503_Pmt_Parametri": {
+			"timeStamp": "2022-01-28T06:26:57.918Z"
 		},
 		"utlProgressivoSalvaCodiceEsiste": {
 			"timeStamp": "2020-09-29T19:23:06.000Z"
@@ -260,6 +242,36 @@
 		},
 		"qTransazioni": {
 			"timeStamp": "2021-12-02T15:21:50.400Z"
+		},
+		"(_marco3)": {
+			"timeStamp": "2020-11-15T07:26:49.000Z"
+		},
+		"(_marco2)": {
+			"timeStamp": "2020-10-23T12:56:12.000Z"
+		},
+		"(_marco5)": {
+			"timeStamp": "2021-07-15T08:50:23.230Z"
+		},
+		"(_marco4)": {
+			"timeStamp": "2021-02-10T06:09:39.127Z"
+		},
+		"(_fatture)": {
+			"timeStamp": "2021-08-16T15:51:29.328Z"
+		},
+		"(pfPromozioni1)": {
+			"timeStamp": "2021-10-16T00:11:38.873Z"
+		},
+		"(_marco7)": {
+			"timeStamp": "2022-01-20T13:58:01.439Z"
+		},
+		"(_marco6)": {
+			"timeStamp": "2021-09-20T06:51:56.238Z"
+		},
+		"(_marco1)": {
+			"timeStamp": "2022-01-27T14:25:04.142Z"
+		},
+		"(pfPromozioniInserimento1)": {
+			"timeStamp": "2021-10-10T14:21:49.949Z"
 		}
 	}
 }
